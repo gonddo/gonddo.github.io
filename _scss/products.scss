@@ -1,0 +1,30 @@
+#gnd-products {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gnd-products-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gnd-products-title {
+  margin: 4rem;
+}
+
+.gnd-products-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  min-width: 21rem;
+  min-height: 24rem;
+}

@@ -1,0 +1,23 @@
+#gnd-logo-section {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.gnd-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnd-logo-img {
+  margin: 1.4rem 0;
+  img {
+    width: 8rem;
+  }
+}
+
+.gnd-logo-menu {
+  i {
+    font-size: 36px;
+  }
+}
