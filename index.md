@@ -132,11 +132,3 @@ layout: home
   </div>
 </section>
 
-<section id="gnd-footer">
-  <div class="gnd-footer-items">
-    <div class="gnd-footer-item">noix</div>
-    <div class="gnd-footer-item">na</div>
-    <div class="gnd-footer-item">fita</div>
-  </div>
-  <div class="gnd-footer-social-media"></div>
-</section>
