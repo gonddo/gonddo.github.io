@@ -48,7 +48,6 @@
     border: 1px solid;
     font-family: $gonddo-sans-serif;
     font-size: 0.9rem;
-    background-color: none;
     background: none;
     color: #fff;
     font-weight: bold;
@@ -65,6 +64,15 @@
       margin-left: 20px;
       position: relative;
       top: 1px;
+    }
+
+    &:hover {
+      font-weight: 600;
+      border-color: $gonddo-lightest-green;
+      color: $gonddo-lightest-green;
+      span:after {
+        background-color: $gonddo-lightest-green;
+      }
     }
   }
 }
