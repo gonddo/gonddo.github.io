@@ -21,3 +21,11 @@
     font-size: 36px;
   }
 }
+
+.gnd-signin-button {
+  font-family: $gonddo-sans-serif;
+  background-color: $gonddo-brown;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
