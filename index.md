@@ -2,26 +2,13 @@
 layout: home
 ---
 
-<section id="gnd-sign-in-header-section">
-  <div class="gnd-signin-header">
-    <div class="gnd-signin-header-shipping">
-      <h2>
-        <span><strong>Frete grátis</strong> na sua primeira compra!</span>
-      </h2>
-    </div>
-    <div class="gnd-signin-header-link">
-      <span>Inscreva-se</span>
-    </div>
-  </div>
-</section>
-
 <section id="gnd-logo-section">
   <div class="gnd-logo">
     <div class="gnd-logo-img">
-      <img alt="gonddo logo" class="gonddo-logo-image" src="/assets/img/gonddo_logo.png" />
+      <img alt="gonddo logo" class="gonddo-logo-image" src="/assets/img/gonddo_logo.png"/>
     </div>
     <div class="gnd-logo-menu">
-      <a href="#" id="gnd-menu-icon"><i class="material-icons">menu</i></a>
+      <span class="gnd-signin-button">Inscreva-se</span>
     </div>
   </div>
 </section>
