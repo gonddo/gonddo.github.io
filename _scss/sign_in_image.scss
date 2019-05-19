@@ -47,11 +47,39 @@
   button {
     border: 1px solid;
     font-family: $gonddo-sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: none;
     background: none;
     color: #fff;
-    font-weight: 600;
+    font-weight: bold;
     padding: 1rem;
+    cursor: pointer;
+
+    span:after {
+      display: inline-block;
+      background-color: $gonddo-green;
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 20px;
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+
+.gnd-sign-in-topic {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 70px;
+  &:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid $gonddo-lightest-green;
+    width: 17rem;
+    margin: 0px -18rem;
+    transform: translateY(1rem);
   }
 }
