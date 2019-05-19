@@ -18,7 +18,7 @@ layout: home
 <section id="gnd-logo-section">
   <div class="gnd-logo">
     <div class="gnd-logo-img">
-      <%= image_tag("gonddo_logo.png", :alt => "gonddo logo", class: :"gonddo-logo-image") %>
+      <img class="gonddo-logo-image" src="assets/img/gonddo_logo.png">
     </div>
     <div class="gnd-logo-menu">
       <a href="#" id="gnd-menu-icon"><i class="material-icons">menu</i></a>
