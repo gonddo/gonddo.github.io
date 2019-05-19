@@ -1,28 +1,60 @@
+@import 'default_styles';
+
 #gnd-footer {
   display: flex;
   justify-content: space-between;
-  width: 1060px;
+  flex-direction: column;
+  max-width: 1060px;
+  height: 8rem;
   margin: 0 auto;
-  background: red;
+}
+.gnd-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .gnd-footer-items {
   display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  height: 12rem;
+  justify-content: space-around;
 }
 
 .gnd-footer-item {
   display: flex;
-  justify-content: space-around;
-  width: 15rem;
-  background-color: blue;
-  height: 12rem;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-width: 8rem;
+  margin: 1rem 0;
+}
+
+.gnd-footer-email {
+  font-family: $gonddo-sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: $gonddo-brown;
 }
 
 .gnd-footer-social-media {
   display: flex;
-  width: 3rem;
-  background-color: green;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 8rem;
+}
+
+.gnd-footer-copyright {
+  display: flex;
+  margin: 0.4rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: $gonddo-sans-serif;
+  color: $gonddo-brown;
+}
+.gnd-footer-logo {
+  width: 8rem;
 }
