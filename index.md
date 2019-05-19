@@ -15,10 +15,20 @@ layout: home
 
 <section id="gnd-sign-in-img-section">
   <div class="gnd-sign-in-description">
+    <div class="gnd-sign-in-topic">
+      Pra sua loja
+    </div>
     <div class="gnd-sign-in-title">
-    <h1>Encontre produtos únicos para sua loja</h1></div>
-    <div class="gnd-sign-in-txt"><p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar  cada vez melhor.</p></div>
-    <div class="gnd-sign-in-btn"><button>Cadastre-se de graça</button></div>
+      <h1>Encontre produtos únicos para sua loja</h1>
+    </div>
+    <div class="gnd-sign-in-txt">
+      <p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar  cada vez melhor.</p>
+    </div>
+    <div class="gnd-sign-in-btn">
+      <button>
+        <span>Cadastre-se de graça</span>
+      </button>
+    </div>
   </div>
 </section>
 
