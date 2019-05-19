@@ -1,1 +1,16 @@
+name: Gonddo
 markdown: kramdown
+
+# Assets
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+sass:
+  sass_dir:          _scss
+  style:            :compressed
+
+# Analytics
+google_analytics: "UA-140386190-1"

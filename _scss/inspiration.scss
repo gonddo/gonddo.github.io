@@ -1,0 +1,58 @@
+@import 'default_styles';
+
+#gnd-inspiration {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .gnd-inspiration-item:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    min-height: 15rem;
+    flex-grow: 1;
+    background-color: #e0e0e0;
+  }
+
+  .gnd-inspiration-item:nth-child(even) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    min-height: 15rem;
+    flex-grow: 1;
+    background-color: #eeeeee;
+  }
+}
+
+.gnd-inspiration-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-width: 20rem;
+  max-width: 20rem;
+  height: 10rem;
+}
+
+.gnd-inspiration-item-title {
+  max-width: 20rem;
+  margin: 0;
+  h3 {
+    font-family: $gonddo-sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212121;
+  }
+}
+
+.gnd-inspiration-item-text {
+  margin: 0;
+  p {
+    font-family: $gonddo-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212121;
+  }
+}

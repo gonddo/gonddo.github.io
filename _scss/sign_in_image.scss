@@ -1,0 +1,57 @@
+@import 'default_styles';
+
+#gnd-sign-in-img-section {
+  background-image: url('/assets/img/market_pix_mask.jpg');
+  background-size: cover;
+  min-height: 10rem;
+  max-height: 46rem;
+  height: 38rem;
+}
+
+.gnd-sign-in-description {
+  display: flex;
+  margin-left: 8rem;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 52rem;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.gnd-sign-in-title {
+  display: flex;
+  justify-content: center;
+  max-width: 40rem;
+  h1 {
+    margin: 0;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-lightest-green;
+    font-weight: 600;
+    font-size: 3.5rem;
+  }
+}
+
+.gnd-sign-in-txt {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 30rem;
+  margin: 2rem 0;
+  p {
+    font-family: $gonddo-serif;
+    color: #fff;
+    font-size: 1rem;
+  }
+}
+
+.gnd-sign-in-btn {
+  button {
+    border: 1px solid;
+    font-family: $gonddo-sans-serif;
+    font-size: 1rem;
+    background-color: none;
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+  }
+}

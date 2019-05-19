@@ -1,0 +1,31 @@
+@import 'default_styles';
+
+#gnd-meet-gonddo {
+  display: flex;
+  flex-direction: row;
+  height: 30rem;
+  margin: 10rem 0;
+}
+
+.gnd-meet-gonddo-phrase {
+  display: flex;
+  min-width: 38rem;
+  background-color: red;
+
+  h1 {
+    font-family: $gonddo-serif;
+  }
+}
+
+.gnd-meet-gonddo-description {
+  display: flex;
+  flex-direction: column;
+  text-decoration: justify;
+  margin: 2rem;
+
+  p {
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: $gonddo-sans-serif;
+  }
+}
