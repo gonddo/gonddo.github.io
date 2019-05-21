@@ -66,6 +66,7 @@ layout: home
 </section>
 
 
+<!--
 <section id="gnd-products">
   <div class="gnd-products-title">Title</div>
   <div class="gnd-products-items">
@@ -74,6 +75,7 @@ layout: home
     <div class="gnd-products-item">Produto3</div>
   </div>
 </section>
+-->
 
 <section id="gnd-how-it-works">
   <div class="gnd-hiw-content-container">
@@ -111,6 +113,7 @@ layout: home
   </div>
 </section>
 
+<!--
 <section id="gnd-values">
   <div class="gnd-values-bg">
   </div>
@@ -128,4 +131,5 @@ layout: home
     </div>
   </div>
 </section>
+-->
 
