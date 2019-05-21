@@ -93,15 +93,15 @@ layout: home
       <div class="gnd-hiw-decription-article-container">
         <article class="gnd-hiw-description-article">
           <p>
-            1. Escolha pelos melhores produtos para sua loja e compre em atacado.
+           <strong>1. </strong>Escolha pelos melhores produtos para sua loja e compre em atacado.
             Você terá acesso às condições de preço de atacado dos produtores e pode comprar de mais de uma marca de uma vez
           </p>
           <p>
-            2.  Só pague 60 dias após a emissão da nota fiscal
+            <strong>2. </strong>Só pague 60 dias após a emissão da nota fiscal
             Você pode escolher por pagar em até 60 dias da emissão da nota fiscal. Claro que você também pode pagar á vista se preferir, ou parcelar em 30, 45 e 60 dias.
           </p>
           <p>
-            3. Devolva (ou troque) o produto que não vendeu em até 60 dias
+            <strong>3. </strong>Devolva (ou troque) o produto que não vendeu em até 60 dias
             Caso você compre um produto que não vendeu como você esperava, você pode escolher por devolver o produto para a gente pelo preço que pagou ou trocar por qualquer outro que desejar.
           </p>
         </article>
