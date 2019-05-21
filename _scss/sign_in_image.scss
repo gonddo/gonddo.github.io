@@ -1,97 +1,200 @@
 @import 'default_styles';
 
-#gnd-sign-in-img-section {
-  background-image: url('/assets/img/market_pix_mask.jpg');
-  background-size: cover;
-  min-height: 10rem;
-  max-height: 46rem;
-  height: 38rem;
-}
-
-.gnd-sign-in-description {
-  display: flex;
-  margin-left: 8rem;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 52rem;
-  height: 100%;
-  align-items: flex-start;
-}
-
-.gnd-sign-in-title {
-  display: flex;
-  justify-content: center;
-  max-width: 40rem;
-  h1 {
-    margin: 0;
-    font-family: $gonddo-sans-serif;
-    color: $gonddo-lightest-green;
-    font-weight: 600;
-    font-size: 3.5rem;
+@media (max-width: 768px) {
+  #gnd-sign-in-img-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/assets/img/market_pix_mask.jpg');
+    background-size: cover;
+    height: 42rem
   }
-}
 
-.gnd-sign-in-txt {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 30rem;
-  margin: 2rem 0;
-  p {
-    font-family: $gonddo-serif;
-    color: #fff;
-    font-size: 1rem;
+  .gnd-sign-in-description {
+    display: flex;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 52rem;
+    align-items: flex-start;
   }
-}
 
-.gnd-sign-in-btn {
-  button {
-    border: 1px solid;
-    font-family: $gonddo-sans-serif;
-    font-size: 0.9rem;
-    background: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 1rem;
-    cursor: pointer;
-    transition-duration: 0.5s;
+  .gnd-sign-in-title {
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
 
-    span:after {
-      display: inline-block;
-      background-color: $gonddo-green;
-      content: "";
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      margin-left: 20px;
-      position: relative;
-      top: 1px;
-      transition-duration: 0.5s;
-    }
-
-    &:hover {
-      transition-duration: 0.5s;
-      font-weight: 600;
-      border-color: $gonddo-lightest-green;
+    h1 {
+      margin: 0;
+      font-family: $gonddo-sans-serif;
       color: $gonddo-lightest-green;
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+  }
+
+  .gnd-sign-in-txt {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 30rem;
+    margin: 2rem 1rem 2rem 0;
+    p {
+      font-family: $gonddo-serif;
+      color: #fff;
+      font-size: 1rem;
+      text-align: justify;
+    }
+  }
+
+  .gnd-sign-in-btn {
+    button {
+      border: 1px solid;
+      font-family: $gonddo-sans-serif;
+      font-size: 0.9rem;
+      background: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 1rem;
+      cursor: pointer;
+      transition-duration: 0.5s;
+
       span:after {
+        display: inline-block;
+        background-color: $gonddo-green;
+        content: "";
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-left: 20px;
+        position: relative;
+        top: 1px;
         transition-duration: 0.5s;
-        background-color: $gonddo-lightest-green;
+      }
+
+      &:hover {
+        transition-duration: 0.5s;
+        font-weight: 600;
+        border-color: $gonddo-lightest-green;
+        color: $gonddo-lightest-green;
+        span:after {
+          transition-duration: 0.5s;
+          background-color: $gonddo-lightest-green;
+        }
       }
     }
   }
+
+  .gnd-sign-in-topic {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 70px;
+    &:after {
+      display: inline-block;
+      content: "";
+      border-top: 1px solid $gonddo-lightest-green;
+      width: 17rem;
+      margin: 0px -18rem;
+      transform: translateY(1rem);
+    }
+  }
 }
 
-.gnd-sign-in-topic {
-  color: white;
-  font-weight: bold;
-  font-style: italic;
-  margin-bottom: 70px;
-  &:after {
-    display: inline-block;
-    content: "";
-    border-top: 1px solid $gonddo-lightest-green;
-    width: 17rem;
-    margin: 0px -18rem;
-    transform: translateY(1rem);
+@media (min-width: 769px) {
+  #gnd-sign-in-img-section {
+    background-image: url('/assets/img/market_pix_mask.jpg');
+    background-size: cover;
+    min-height: 10rem;
+    max-height: 46rem;
+    height: 38rem;
+  }
+
+  .gnd-sign-in-description {
+    display: flex;
+    margin-left: 8rem;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 52rem;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .gnd-sign-in-title {
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
+    h1 {
+      margin: 0;
+      font-family: $gonddo-sans-serif;
+      color: $gonddo-lightest-green;
+      font-weight: 600;
+      font-size: 3.5rem;
+    }
+  }
+
+  .gnd-sign-in-txt {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 30rem;
+    margin: 2rem 0;
+    p {
+      font-family: $gonddo-serif;
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+
+  .gnd-sign-in-btn {
+    button {
+      border: 1px solid;
+      font-family: $gonddo-sans-serif;
+      font-size: 0.9rem;
+      background: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 1rem;
+      cursor: pointer;
+      transition-duration: 0.5s;
+
+      span:after {
+        display: inline-block;
+        background-color: $gonddo-green;
+        content: "";
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-left: 20px;
+        position: relative;
+        top: 1px;
+        transition-duration: 0.5s;
+      }
+
+      &:hover {
+        transition-duration: 0.5s;
+        font-weight: 600;
+        border-color: $gonddo-lightest-green;
+        color: $gonddo-lightest-green;
+        span:after {
+          transition-duration: 0.5s;
+          background-color: $gonddo-lightest-green;
+        }
+      }
+    }
+  }
+
+  .gnd-sign-in-topic {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 70px;
+    &:after {
+      display: inline-block;
+      content: "";
+      border-top: 1px solid $gonddo-lightest-green;
+      width: 17rem;
+      margin: 0px -18rem;
+      transform: translateY(1rem);
+    }
   }
 }
