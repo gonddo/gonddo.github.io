@@ -53,6 +53,7 @@
     font-weight: bold;
     padding: 1rem;
     cursor: pointer;
+    transition-duration: 0.5s;
 
     span:after {
       display: inline-block;
@@ -64,13 +65,16 @@
       margin-left: 20px;
       position: relative;
       top: 1px;
+      transition-duration: 0.5s;
     }
 
     &:hover {
+      transition-duration: 0.5s;
       font-weight: 600;
       border-color: $gonddo-lightest-green;
       color: $gonddo-lightest-green;
       span:after {
+        transition-duration: 0.5s;
         background-color: $gonddo-lightest-green;
       }
     }
