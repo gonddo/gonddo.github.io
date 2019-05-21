@@ -56,7 +56,6 @@
     }
   }
 
-
   .gnd-hiw-footer-contact-us {
     display: flex;
     text-transform: uppercase;
@@ -67,23 +66,34 @@
 
 @media (min-width: 769px) {
   #gnd-how-it-works {
-    margin: 10rem 0;
+    margin: 8rem 0;
   }
 
   .gnd-hiw-content-container {
     display: flex;
     flex-direction: row;
     height: 32rem;
-    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .gnd-hiw-phrase-container {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    height: 32rem;
   }
 
   .gnd-hiw-phrase {
-    max-width: 24rem;
     display: flex;
-    margin: 0 0 4rem;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-color: $gonddo-blue;
+    height: 32rem;
+    min-width: 32rem;
 
     h1 {
+      margin: 0 2rem 2rem 0;
+      max-width: 24rem;
       color: #fff;
       font-family: $gonddo-serif;
       font-size: 2.5rem;
@@ -95,10 +105,19 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    flex-grow: 3;
     flex-direction: column;
     text-align: justify;
-    min-width: 30rem;
-    max-width: 50rem;
+    padding-left: 2rem;
+    height: 32rem;
+
+    strong {
+      font-size: 3rem;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
   }
 
   .gnd-hiw-phrase-hashtag {
@@ -112,10 +131,10 @@
 
   .gnd-hiw-footer-contact-us {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
     text-transform: uppercase;
     font-weight: 600;
-    min-width: 30rem;
+    padding: 1rem ;
   }
 }
