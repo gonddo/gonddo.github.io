@@ -2,17 +2,6 @@
 layout: home
 ---
 
-<section id="gnd-logo-section">
-  <div class="gnd-logo">
-    <div class="gnd-logo-img">
-      <img alt="gonddo logo" class="gonddo-logo-image" src="/assets/img/gonddo_logo.png"/>
-    </div>
-    <div class="gnd-logo-menu">
-      <span class="gnd-signin-button">Inscreva-se</span>
-    </div>
-  </div>
-</section>
-
 <section id="gnd-sign-in-img-section">
   <div class="gnd-sign-in-description">
     <div class="gnd-sign-in-topic">
