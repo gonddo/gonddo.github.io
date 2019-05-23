@@ -47,43 +47,45 @@
     }
   }
 
-  .gnd-sign-in-btn {
-    border: 1px solid;
+  .gnd-sign-in-link {
+    border: 1px solid #fff;
     font-family: $gonddo-sans-serif;
     font-size: 0.9rem;
-    background: blue;
-    color: #fff;
+    background: none;
+    cursor: pointer;
+    padding: 1rem 0;
     font-weight: bold;
     padding: 1rem;
     cursor: pointer;
     transition-duration: 0.5s;
+    text-decoration: none;
 
-    a:visited {
-      color: red;
+    &:visited {
+      color: #fff;
       text-decoration: none;
+    }
 
-      span:after {
-        display: inline-block;
-        background-color: $gonddo-green;
-        content: "";
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        margin-left: 20px;
-        position: relative;
-        top: 1px;
-        transition-duration: 0.5s;
-      }
+    &:after {
+      display: inline-block;
+      background-color: $gonddo-green;
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 20px;
+      position: relative;
+      top: 1px;
+      transition-duration: 0.5s;
+    }
 
-      &:hover {
+    &:hover {
+      transition-duration: 0.5s;
+      font-weight: 600;
+      border-color: $gonddo-lightest-green;
+      color: $gonddo-lightest-green;
+      &:after {
         transition-duration: 0.5s;
-        font-weight: 600;
-        border-color: $gonddo-lightest-green;
-        color: $gonddo-lightest-green;
-        span:after {
-          transition-duration: 0.5s;
-          background-color: $gonddo-lightest-green;
-        }
+        background-color: $gonddo-lightest-green;
       }
     }
   }
