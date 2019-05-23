@@ -15,7 +15,7 @@ layout: home
     </div>
     <div class="gnd-sign-in-btn">
       <button>
-        <span>Cadastre-se de graça</span>
+      <span><a href="/sign_in">Cadastre-se de graça</a></span>
       </button>
     </div>
   </div>

@@ -59,6 +59,15 @@
       cursor: pointer;
       transition-duration: 0.5s;
 
+      a {
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: inherit;
+        text-decoration: none;
+      }
+
       span:after {
         display: inline-block;
         background-color: $gonddo-green;
