@@ -1,7 +1,6 @@
 name: Gonddo
 markdown: kramdown
 permalink: pretty
-baseurl: /project
 
 # Assets
 defaults:
