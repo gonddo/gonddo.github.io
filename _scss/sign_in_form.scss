@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: 2rem;
   max-width: 24rem;
   align-items: center;
   justify-content: center;
@@ -21,7 +20,8 @@
 .gnd-sign-in-field {
   width: 100%;
   height: 2.4rem;
-  margin: 1rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
 }
 
 .gnd-sign-in-radio {
