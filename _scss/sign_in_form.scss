@@ -1,0 +1,53 @@
+@import 'default_styles';
+
+.gnd-sign-in-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32rem;
+  min-width: 20rem;
+  min-height: 36rem;
+}
+
+.gnd-sign-in-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 24rem;
+  align-items: center;
+  justify-content: center;
+}
+.gnd-sign-in-field {
+  width: 100%;
+  height: 2.4rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.gnd-sign-in-radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: $gonddo-sans-serif;
+  flex-grow: 1;
+
+  input {
+    margin: 0.5rem;
+  }
+}
+
+.gnd-sign-in-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  background-color: $gonddo-brown;
+  font-family: $gonddo-sans-serif;
+  border: solid 1px gray;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}

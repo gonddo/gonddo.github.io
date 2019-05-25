@@ -47,40 +47,45 @@
     }
   }
 
-  .gnd-sign-in-btn {
-    button {
-      border: 1px solid;
-      font-family: $gonddo-sans-serif;
-      font-size: 0.9rem;
-      background: none;
+  .gnd-sign-in-link {
+    border: 1px solid #fff;
+    font-family: $gonddo-sans-serif;
+    font-size: 0.9rem;
+    background: none;
+    cursor: pointer;
+    padding: 1rem 0;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+    &:visited {
       color: #fff;
-      font-weight: bold;
-      padding: 1rem;
-      cursor: pointer;
+      text-decoration: none;
+    }
+
+    &:after {
+      display: inline-block;
+      background-color: $gonddo-green;
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 20px;
+      position: relative;
+      top: 1px;
       transition-duration: 0.5s;
+    }
 
-      span:after {
-        display: inline-block;
-        background-color: $gonddo-green;
-        content: "";
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        margin-left: 20px;
-        position: relative;
-        top: 1px;
+    &:hover {
+      transition-duration: 0.5s;
+      font-weight: 600;
+      border-color: $gonddo-lightest-green;
+      color: $gonddo-lightest-green;
+      &:after {
         transition-duration: 0.5s;
-      }
-
-      &:hover {
-        transition-duration: 0.5s;
-        font-weight: 600;
-        border-color: $gonddo-lightest-green;
-        color: $gonddo-lightest-green;
-        span:after {
-          transition-duration: 0.5s;
-          background-color: $gonddo-lightest-green;
-        }
+        background-color: $gonddo-lightest-green;
       }
     }
   }
@@ -145,56 +150,61 @@
     }
   }
 
-  .gnd-sign-in-btn {
-    button {
-      border: 1px solid;
-      font-family: $gonddo-sans-serif;
-      font-size: 0.9rem;
-      background: none;
+  .gnd-sign-in-link {
+    border: 1px solid #fff;
+    font-family: $gonddo-sans-serif;
+    font-size: 0.9rem;
+    background: none;
+    cursor: pointer;
+    padding: 1rem 0;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+    &:visited {
       color: #fff;
-      font-weight: bold;
-      padding: 1rem;
-      cursor: pointer;
+      text-decoration: none;
+    }
+
+    &:after {
+      display: inline-block;
+      background-color: $gonddo-green;
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 20px;
+      position: relative;
+      top: 1px;
       transition-duration: 0.5s;
+    }
 
-      span:after {
-        display: inline-block;
-        background-color: $gonddo-green;
-        content: "";
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        margin-left: 20px;
-        position: relative;
-        top: 1px;
+    &:hover {
+      transition-duration: 0.5s;
+      font-weight: 600;
+      border-color: $gonddo-lightest-green;
+      color: $gonddo-lightest-green;
+      &:after {
         transition-duration: 0.5s;
-      }
-
-      &:hover {
-        transition-duration: 0.5s;
-        font-weight: 600;
-        border-color: $gonddo-lightest-green;
-        color: $gonddo-lightest-green;
-        span:after {
-          transition-duration: 0.5s;
-          background-color: $gonddo-lightest-green;
-        }
+        background-color: $gonddo-lightest-green;
       }
     }
   }
+}
 
-  .gnd-sign-in-topic {
-    color: white;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: 70px;
-    &:after {
-      display: inline-block;
-      content: "";
-      border-top: 1px solid $gonddo-lightest-green;
-      width: 17rem;
-      margin: 0px -18rem;
-      transform: translateY(1rem);
-    }
+.gnd-sign-in-topic {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 70px;
+  &:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid $gonddo-lightest-green;
+    width: 17rem;
+    margin: 0px -18rem;
+    transform: translateY(1rem);
   }
 }

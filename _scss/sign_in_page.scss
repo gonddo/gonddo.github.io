@@ -1,28 +1,22 @@
-#gnd-logo-section {
-  max-width: 1160px;
-  margin: 0 auto;
-}
+@import 'default_styles';
 
-.gnd-logo {
+#gnd-sign-in-page-section {
   display: flex;
-  justify-content: space-between;
+  flex-grow: 1;
+  height: 100vh;
+  justify-content: center;
   align-items: center;
+  background-color: $gonddo-lightest-green;
 }
 
-.gnd-logo-img {
-  margin: 1.4rem 0;
-  img {
-    width: 8rem;
-  }
+.gnd-sign-in-form-container {
+  display: flex;
+  width: 20rem;
+  height: 30rem;
+  background-color: #fff;
 }
 
-.gnd-logo-menu {
-  i {
-    font-size: 36px;
-  }
-}
-
-.gnd-signin-button {
+.gnd-sign-in-submit-btn {
   font-family: $gonddo-sans-serif;
   background-color: $gonddo-brown;
   color: white;
