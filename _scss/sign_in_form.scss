@@ -4,9 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32rem;
+  width: 24rem;
   min-width: 20rem;
-  min-height: 36rem;
+  min-height: 30rem;
 }
 
 .gnd-sign-in-form {
@@ -27,13 +27,43 @@
 .gnd-sign-in-radio {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  font-family: $gonddo-sans-serif;
   flex-grow: 1;
+  width: calc(80% + 2rem);
+  font: 400 13.3333px Arial;
 
+ span {
+  color: $gonddo-dark-brown;
+ }
   input {
     margin: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  label {
+    cursor: pointer;
+    color: $gonddo-brown;
+    width: 100%;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gonddo-light-grey;
+    &:first-of-type {
+      margin-right: 2px;
+    }
+    &::last-of-type {
+      margin-left: 2px;
+    }
+  }
+
+  input:checked + label {
+    background-color: $gonddo-brown;
+    color: #FFF;
   }
 }
 

@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #000;
     background-image: url('/assets/img/market_pix_mask.jpg');
     background-size: cover;
     height: 42rem
@@ -48,6 +49,7 @@
   }
 
   .gnd-sign-in-link {
+    color: #fff;
     border: 1px solid #fff;
     font-family: $gonddo-sans-serif;
     font-size: 0.9rem;
@@ -108,6 +110,7 @@
 
 @media (min-width: 769px) {
   #gnd-sign-in-img-section {
+    background-color: #000;
     background-image: url('/assets/img/market_pix_mask.jpg');
     background-size: cover;
     min-height: 10rem;
@@ -151,6 +154,7 @@
   }
 
   .gnd-sign-in-link {
+    color: #fff;
     border: 1px solid #fff;
     font-family: $gonddo-sans-serif;
     font-size: 0.9rem;
