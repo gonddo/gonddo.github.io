@@ -1,13 +1,44 @@
 @import 'default_styles';
 
 #gnd-values {
+  background-image: url('/assets/img/gonddo_values_background_2.jpg');
+  background-size: cover;
   height: 50rem;
-  background-color: #f6fbee;
-  margin: 8rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 0;
 }
 
-.gnd-values-bg {
-  background-image: url('/assets/img/desserts_op.jpg');
-  background-size:cover;
-  height: 18rem;
+.gnd-values-image-container {
+  display: flex;
+  flex-grow: 3;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gnd-values-image {
+  display: flex;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.gnd-values-gonddo-description {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  text-decoration: justify;
+  flex-grow: 5;
+  margin: 2rem;
+
+  p {
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: $gonddo-sans-serif;
+  }
 }

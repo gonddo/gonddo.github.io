@@ -95,15 +95,15 @@ layout: home
   </div>
 </section>
 
-<!--
 <section id="gnd-values">
-  <div class="gnd-values-bg">
+  <div class="gnd-values-image-container">
+    <img class="gnd-values-image" src="/assets/img/gonddo_values_image.png" alt="Imagem de Cosmeticos">
   </div>
-  <div class="gnd-meet-gonddo-description">
-    <div class="gnd-meet-gonddo-description-title">
+  <div class="gnd-values-gonddo-description">
+    <div class="gnd-values-gonddo-description-title">
       <h1>Acreditamos na força do comércio local.</h1>
     </div>
-    <div class="gnd-meet-gonddo-description-txt">
+    <div class="gnd-values-gonddo-description-txt">
       <p>
         Em tempos onde estamos todos conectados e o comércio online está cada vez mais competitivo. A Gonddo quer ajudar o revendedor local e independente a se fortalecer através do que acreditamos ser a sua principal vantagem: poder oferecer produtos únicos, que não se encontram em qualquer lugar. Nós entendemos as dificuldades de hoje em dia de ser um empreendedor pequeno no ramo do varejo e por isso queremos criar o movimento de suporte ao comércio local.
       </p>
@@ -113,5 +113,4 @@ layout: home
     </div>
   </div>
 </section>
--->
 
