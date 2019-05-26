@@ -90,9 +90,7 @@ layout: home
           </p>
         </article>
       </div>
-      <div class="gnd-hiw-footer-contact-us">
-        <span class="gnd-hiw-footer-contact-text">Entre em contato conosco</span>
-      </div>
+      <a class="gnd-hiw-footer-contact" href="/sign_in">Entre em contato conosco</a>
     </div>
   </div>
 </section>

@@ -61,11 +61,26 @@
     }
   }
 
-  .gnd-hiw-footer-contact-us {
+  .gnd-hiw-footer-contact {
     display: flex;
+    justify-content: center;
+    align-self: center;
+    min-width: 30rem;
     text-transform: uppercase;
+    padding: 1rem ;
+    margin: 1rem;
+    background-color: #212121;
+    cursor: pointer;
     font-weight: 600;
+    font-size: 1.3rem;
     font-family: $gonddo-sans-serif;
+    text-decoration: none;
+    color: $gonddo-blue;
+
+    &:visited {
+      color: $gonddo-blue;
+      text-decoration: none;
+    }
   }
 }
 
@@ -145,12 +160,24 @@
     text-transform: uppercase;
   }
 
-  .gnd-hiw-footer-contact-us {
+  .gnd-hiw-footer-contact {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-self: flex-end;
+    min-width: 30rem;
     text-transform: uppercase;
-    font-weight: 600;
     padding: 1rem ;
+    background-color: #212121;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: $gonddo-sans-serif;
+    text-decoration: none;
+    color: $gonddo-blue;
+
+    &:visited {
+      color: $gonddo-blue;
+      text-decoration: none;
+    }
   }
 }
