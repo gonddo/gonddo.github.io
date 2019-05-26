@@ -28,7 +28,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item">
+  <div class="gnd-inspiration-item gnd-box-border">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>60 dias para devolução</h3>
