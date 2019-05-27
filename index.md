@@ -108,7 +108,7 @@ layout: home
         Em tempos onde estamos todos conectados e o comércio online está cada vez mais competitivo. A Gonddo quer ajudar o revendedor local e independente a se fortalecer através do que acreditamos ser a sua principal vantagem: poder oferecer produtos únicos, que não se encontram em qualquer lugar. Nós entendemos as dificuldades de hoje em dia de ser um empreendedor pequeno no ramo do varejo e por isso queremos criar o movimento de suporte ao comércio local.
       </p>
       <p>
-        Queremos ser o maior aliado dos revendedores independentes e dos fabricantes e artesãos. Precisamos de mais produtos que ofereçam alguma experiência positiva, que tenham uma história mais humana e responsável por trás, feitos por pessoas. Assim nasce a Gonddo
+        Queremos ser o maior aliado dos revendedores independentes e dos fabricantes e artesãos. Precisamos de mais produtos que ofereçam alguma experiência positiva, que tenham uma história mais humana e responsável por trás, feitos por pessoas. Assim nasce a Gonddo!
       </p>
     </div>
   </div>
