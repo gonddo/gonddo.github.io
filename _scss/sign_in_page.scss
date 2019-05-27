@@ -16,6 +16,13 @@
   background-color: #fff;
 }
 
+.gnd-sign-in-radio-options {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 0.4rem;
+}
+
 .gnd-sign-in-submit-btn {
   font-family: $gonddo-sans-serif;
   background-color: $gonddo-brown;
