@@ -95,23 +95,22 @@ layout: home
   </div>
 </section>
 
-<!--
 <section id="gnd-values">
-  <div class="gnd-values-bg">
+  <div class="gnd-values-image-container">
+    <img class="gnd-values-image" src="/assets/img/gonddo_values_image.png" alt="Imagem de Cosmeticos">
   </div>
-  <div class="gnd-meet-gonddo-description">
-    <div class="gnd-meet-gonddo-description-title">
+  <div class="gnd-values-gonddo-description">
+    <div class="gnd-values-gonddo-description-title">
       <h1>Acreditamos na força do comércio local.</h1>
     </div>
-    <div class="gnd-meet-gonddo-description-txt">
+    <div class="gnd-values-gonddo-description-txt">
       <p>
-        Em tempos onde estamos todos conectados e o comércio online está cada vez mais competitivo. A Gonddo quer ajudar o revendedor local e independente a se fortalecer através do que acreditamos ser a sua principal vantagem: poder oferecer produtos únicos, que não se encontram em qualquer lugar. Nós entendemos as dificuldades de hoje em dia de ser um empreendedor pequeno no ramo do varejo e por isso queremos criar o movimento de suporte ao comércio local.
+        Em tempos que estamos todos conectados e o comércio online está cada vez mais competitivo a Gonddo quer ajudar o revendedor local e independente a se fortalecer, através do que acreditamos ser a sua principal vantagem: poder oferecer produtos únicos, que não se encontram em qualquer lugar. Nós entendemos as dificuldades de ser um empreendedor pequeno no ramo do varejo e por isso queremos criar o movimento de suporte ao comércio local.
       </p>
       <p>
-        Queremos ser o maior aliado dos revendedores independentes e dos fabricantes e artesãos. Precisamos de mais produtos que ofereçam alguma experiência positiva, que tenham uma história mais humana e responsável por trás, feitos por pessoas. Assim nasce a Gonddo
+        Queremos ser o maior aliado dos revendedores independentes e dos fabricantes e artesãos. Precisamos de mais produtos que ofereçam alguma experiência positiva, que tenham uma história mais humana e responsável por trás, feitos por pessoas. Assim nasce a Gonddo!
       </p>
     </div>
   </div>
 </section>
--->
 
