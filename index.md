@@ -13,7 +13,7 @@ layout: home
     <div class="gnd-sign-in-txt">
       <p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar  cada vez melhor.</p>
     </div>
-      <a class="gnd-sign-in-link" href="/sign_in">Cadastre-se de graça</a>
+    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se de graça</a>
   </div>
 </section>
 

@@ -16,3 +16,6 @@ sass:
 
 # Analytics
 google_analytics: "UA-140386190-1"
+
+# FormSpree
+formspree_url: https://formspree.io/gonddobr@gmail.com
