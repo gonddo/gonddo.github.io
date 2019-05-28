@@ -1,7 +1,7 @@
 // Sign in modal
-var signInModal = document.getElementById("signInModal");
-var ctaButton = document.getElementById("signInBtn");
-var mainButton = document.getElementById("signInHeaderBtn");
+var signInModal = document.getElementById("gnd-signInModal");
+var ctaButton = document.getElementById("gnd-signInBtn");
+var mainButton = document.getElementById("gnd-signInHeaderBtn");
 var closeSpan = document.getElementsByClassName("close")[0];
 ctaButton.onclick = displayModal;
 mainButton.onclick = displayModal;
