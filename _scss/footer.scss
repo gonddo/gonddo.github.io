@@ -3,10 +3,9 @@
 @media (max-width: 600px) {
   #gnd-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-    max-width: 1060px;
-    height: 8rem;
+    height: 24rem;
     margin: 0 auto;
   }
   .gnd-footer-content {
