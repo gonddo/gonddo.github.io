@@ -1,5 +1,37 @@
 @import 'default_styles';
 
+.gnd-background-icon-love:before {
+  position: relative;
+  font-family: "Material Icons";
+  content: "\e87e";
+  left: 3rem;
+  bottom: 2rem;
+  font-size: 6rem;
+  width: 0;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.gnd-background-icon-cart:before {
+  position: relative;
+  font-family: "Material Icons";
+  content: "\e8cc";
+  left: 3rem;
+  bottom: 2rem;
+  font-size: 6rem;
+  width: 0;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.gnd-background-icon-location:before {
+  position: relative;
+  font-family: "Material Icons";
+  content: "\e0c8";
+  left: 3rem;
+  bottom: 2rem;
+  font-size: 6rem;
+  width: 0;
+  color: rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 768px) {
   #gnd-inspiration {
     display: flex;
