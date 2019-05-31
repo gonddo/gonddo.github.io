@@ -11,7 +11,7 @@ layout: home
       <h1>Encontre produtos únicos para sua loja</h1>
     </div>
     <div class="gnd-sign-in-txt">
-      <p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar  cada vez melhor.</p>
+      <p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar cada vez melhor.</p>
     </div>
     <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se de graça</a>
   </div>
@@ -49,18 +49,6 @@ layout: home
     </div>
   </div>
 </section>
-
-
-<!--
-<section id="gnd-products">
-  <div class="gnd-products-title">Title</div>
-  <div class="gnd-products-items">
-    <div class="gnd-products-item">Produto1</div>
-    <div class="gnd-products-item">Produto2</div>
-    <div class="gnd-products-item">Produto3</div>
-  </div>
-</section>
--->
 
 <section id="gnd-how-it-works">
   <div class="gnd-hiw-content-container">
