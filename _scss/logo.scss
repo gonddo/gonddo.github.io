@@ -1,6 +1,15 @@
-#gnd-logo-section {
-  max-width: 1160px;
-  margin: 0 auto;
+@media (max-width: 1160px) {
+  #gnd-logo-section {
+    max-width: 1160px;
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 1160px) {
+  #gnd-logo-section {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
 }
 
 .gnd-logo {
