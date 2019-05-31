@@ -37,7 +37,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item gnd-background-icon-location">
+  <div class="gnd-inspiration-item gnd-background-icon-time">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>O melhor prazo de pagamento</h3>
