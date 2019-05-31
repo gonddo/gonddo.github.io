@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-
 <section id="gnd-sign-in-img-section">
   <div class="gnd-sign-in-description">
     <div class="gnd-sign-in-topic">
@@ -18,7 +17,7 @@ layout: home
 </section>
 
 <section id="gnd-inspiration">
-  <div class="gnd-inspiration-item">
+  <div class="gnd-inspiration-item gnd-background-icon-love">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>Produtos Únicos</h3>
@@ -28,7 +27,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item gnd-box-border">
+  <div class="gnd-inspiration-item gnd-box-border gnd-background-icon-cart">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>60 dias para devolução</h3>
@@ -38,7 +37,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item">
+  <div class="gnd-inspiration-item gnd-background-icon-time">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>O melhor prazo de pagamento</h3>
