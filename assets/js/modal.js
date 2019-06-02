@@ -19,3 +19,4 @@ window.onclick = function(event) {
     signInModal.style.display = "none";
   }
 }
+
