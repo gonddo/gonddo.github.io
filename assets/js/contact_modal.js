@@ -14,6 +14,6 @@ closeContactSpan.onclick = function() {
 
 window.onclick = function(event) {
   if (event.target == contactModal) {
-    contact.style.display = "none";
+    contactModal.style.display = "none";
   }
 }

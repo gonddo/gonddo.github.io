@@ -3,7 +3,7 @@
 .modal {
   display: none;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -20,6 +20,7 @@
   padding: 20px;
   border: 1px solid #888;
   width: fit-content;
+  margin-top: 8rem;
 }
 
 .close {
@@ -44,5 +45,6 @@
   .modal-content {
     min-height: calc(100% - 42px);
     width: 100%;
+    margin: 0;
   }
 }
