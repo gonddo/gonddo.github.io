@@ -77,7 +77,7 @@ layout: home
           </p>
         </article>
       </div>
-      <a class="gnd-hiw-footer-contact" href="/sign_in">Entre em contato conosco</a>
+      <a id="gnd-contactBtn" class="gnd-hiw-footer-contact" href="#">Entre em contato conosco</a>
     </div>
   </div>
 </section>

@@ -1,0 +1,103 @@
+@import 'default_styles';
+
+.gnd-contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 20rem;
+  min-height: 40rem;
+}
+
+.gnd-contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 24rem;
+  align-items: center;
+  justify-content: center;
+}
+.gnd-contact-field {
+  width: 80%;
+  height: 2.4rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.gnd-contact-radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  width: calc(80% + 2rem);
+  font: 400 13.3333px Arial;
+
+ span {
+  color: $gonddo-dark-brown;
+ }
+}
+
+.gnd-contact-radio-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  label {
+    display: flex;
+    flex-grow: 1;
+    cursor: pointer;
+    color: $gonddo-brown;
+    height: 2.4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: $gonddo-light-grey;
+    &:first-of-type {
+      margin-right: 2px;
+    }
+    &::last-of-type {
+      margin-left: 2px;
+    }
+  }
+
+  input:checked + label {
+    background-color: $gonddo-brown;
+    color: #FFF;
+  }
+}
+
+.gnd-contact-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 90%;
+  background-color: $gonddo-brown;
+  font-family: $gonddo-sans-serif;
+  border: solid 1px gray;
+  border-radius: 0;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .gnd-contact-form-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+ .gnd-contact-form-container {
+    width: 24rem;
+  }
+}
