@@ -2,7 +2,7 @@
   <div class="contact-modal-content">
     <span class="gnd-close-contact-modal">&times;</span>
       <div class="gnd-contact-form-container">
-        <form class="gnd-contact-form" action="https://formspree.io/gonddobr@gmail.com" method="POST">
+        <form class="gnd-contact-form" action={{ site.formspree_contact_url }} method="POST">
           <input class="gnd-contact-field"
             id="customer-contact-name" type="text" name="name"
             placeholder="Informe seu nome" required
