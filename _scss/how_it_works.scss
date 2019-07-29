@@ -23,7 +23,7 @@
 
     h1 {
       color: #fff;
-      font-family: $gonddo-serif;
+      font-family: $gonddo-sans-serif;
       font-size: 2.0rem;
       font-style: italic;
       padding: 1rem;
@@ -35,7 +35,7 @@
     justify-content: center;
     background-color: #fff;
     padding: 1rem 0;
-    font-family: $gonddo-sans-serif;
+    font-family: $gonddo-serif;
     font-weight: 600;
     letter-spacing: 0.1rem;
     color: #212121;
@@ -71,7 +71,7 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 1rem;
-    font-family: $gonddo-sans-serif;
+    font-family: $gonddo-serif;
     text-decoration: none;
     color: $gonddo-blue;
 
@@ -84,7 +84,7 @@
 
 @media (min-width: 951px) {
   #gnd-how-it-works {
-    margin: 8rem 0;
+    margin: 2rem 0;
   }
 
   .gnd-hiw-content-container {
@@ -116,7 +116,7 @@
       margin: 0 4rem 4rem 0;
       max-width: 24rem;
       color: #fff;
-      font-family: $gonddo-serif;
+      font-family: $gonddo-sans-serif;
       font-size: 2.5rem;
       font-style: italic;
     }
@@ -133,7 +133,7 @@
     max-width: 48rem;
 
     strong {
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
     p {
@@ -151,7 +151,7 @@
     width: 100%;
     background-color: #fff;
     padding: 1rem 0;
-    font-family: $gonddo-sans-serif;
+    font-family: $gonddo-serif;
     font-weight: 600;
     letter-spacing: 0.2rem;
     color: #212121;
@@ -168,7 +168,7 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 1.3rem;
-    font-family: $gonddo-sans-serif;
+    font-family: $gonddo-serif;
     text-decoration: none;
     color: $gonddo-blue;
 
