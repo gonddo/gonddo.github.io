@@ -2,7 +2,7 @@
   <div class="modal-content">
     <span class="close">&times;</span>
       <div class="gnd-sign-in-form-container">
-        <form class="gnd-sign-in-form" action={{ site.formspree_sign_in_url }} method="POST">
+        <form class="gnd-sign-in-form" action={{ site.sign_in_url }} method="POST">
           <input class="gnd-sign-in-field"
             id="customer-name" type="text" name="name"
             placeholder="Informe seu nome" required
@@ -16,13 +16,13 @@
             oninput="setCustomValidity('')"
             title="Email">
           <input class="gnd-sign-in-field"
-            id="brand-name" type="text" name="Marca"
+            id="brand-name" type="text" name="brand"
             placeholder="Sua marca" required
             oninvalid="this.setCustomValidity('Precisamos saber o nome da sua marca :)')"
             oninput="setCustomValidity('')"
             title="Nome da sua Marca">
           <input class="gnd-sign-in-field"
-            id="city" type="text" name="Cidade"
+            id="city" type="text" name="city"
             placeholder="Cidade" required
             oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
             oninput="setCustomValidity('')"
@@ -32,7 +32,7 @@
             <div class="gnd-sign-in-radio-options">
               <input type="radio"
                  id="supplier_option"
-                 name="occupation-field"
+                 name="profile"
                  value="Fabricante"
                  required
                  oninvalid="this.setCustomValidity('Precisamos dessa informação para melhor atendê-lo')"
@@ -41,7 +41,7 @@
               <label for="supplier_option">Fabricante</label>
               <input type="radio"
                 id="retailer_option"
-                name="occupation-field"
+                name="profile"
                 value="Comerciante"
                 required
                 oninvalid="this.setCustomValidity('Precisamos dessa informação para melhor atendê-lo')"
