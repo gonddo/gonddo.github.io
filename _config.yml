@@ -18,5 +18,5 @@ sass:
 google_analytics: "UA-140386190-1"
 
 # FormSpree
-sign_in_url: http://gonddo.com.br/public/request_invite
+sign_in_url: http://app.gonddo.com.br/public/request_invite
 formspree_contact_url: https://formspree.io/bruno.passos@gonddo.com.br
