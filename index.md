@@ -23,27 +23,27 @@ layout: home
         <h3>Produtos Únicos</h3>
       </div>
       <div class="gnd-inspiration-item-text">
-        <p>Na Gonddo você vai encontrar marcas selecionadas e produtos que vão deixar suas gondôlas mais atrativas.</p>
+        <p>Selecionamos marcas especiais e com produtos produzidos localmente para ajudar o estoque da sua loja a ficar ainda mais atrativo.</p>
       </div>
     </div>
   </div>
   <div class="gnd-inspiration-item gnd-box-border gnd-background-icon-cart">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
-        <h3>60 dias para devolução</h3>
+        <h3>Compre de mais de uma marca</h3>
       </div>
       <div class="gnd-inspiration-item-text">
-        <p>Oferecemos prazo de até 60 dias para você trocar mercadoria em caso dos produtos não girarem como esperado.</p>
+        <p>Simplifique seu processo de compra de estoque. Compre de várias marcas em uma compra só.</p>
       </div>
     </div>
   </div>
   <div class="gnd-inspiration-item gnd-background-icon-time">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
-        <h3>O melhor prazo de pagamento</h3>
+        <h3>Melhores prazos de pagamento</h3>
       </div>
       <div class="gnd-inspiration-item-text">
-        <p>Se você quiser, só pague pelos produtos em 60 dias.</p>
+        <p>Garantimos os melhores prazos de pagamento e parcelamento para ajudar o seu fluxo de caixa.</p>
       </div>
     </div>
   </div>
@@ -65,15 +65,13 @@ layout: home
       <div class="gnd-hiw-description-article-container">
         <article class="gnd-hiw-description-article">
           <p>
-            Escolha pelos melhores produtos para sua loja e compre em atacado.
-            Você terá acesso às condições de preço de atacado dos produtores e pode comprar de mais de uma marca de uma vez.
+            Escolha pelos melhores produtos para sua loja e compre no atacado. Você terá acesso às condições comerciais dos produtores e pode comprar de mais de uma marca de uma vez.
           </p>
           <p>
-            Você pode escolher por pagar em até 60 dias da emissão da nota fiscal. Claro que você também pode pagar á vista se preferir, ou parcelar em 30, 45 e 60 dias.
+            Sabemos que o fluxo de caixa de um varejista é apertado. Por isso, temos ótimas condições comerciais de prazos e parcelamento.
           </p>
           <p>
-            Devolva (ou troque) o produto que não vendeu em até 60 dias
-            Caso você compre um produto que não vendeu como você esperava, você pode escolher por devolver o produto para a gente pelo preço que pagou ou trocar por qualquer outro que desejar.
+            Comprando de marcas locais você estimula a economia e ainda consegue descobrir produtos que foram feitos por pessoas com muito carinho e cuidado.
           </p>
         </article>
       </div>
