@@ -1,8 +1,30 @@
+@media (max-width: 500px) {
+  .gnd-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 10rem;
+    width: 100%;
+  }
+  .gnd-logo-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .gnd-logo-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
 @media (max-width: 1160px) {
   #gnd-logo-section {
     max-width: 1160px;
     margin: 0 1rem;
   }
+
 }
 
 @media (min-width: 1160px) {
@@ -28,6 +50,21 @@
 .gnd-logo-menu {
   i {
     font-size: 36px;
+  }
+}
+
+.gnd-login-button {
+  font-family: $gonddo-serif;
+  color: $gonddo-green;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    color: $gonddo-brown;
+    transition: 0.3s;
   }
 }
 
