@@ -15,7 +15,7 @@ sass:
   style:            :compressed
 
 # Analytics
-google_analytics: "UA-140386190-1"
+google_analytics: "UA-147383514-2"
 
 # FormSpree
 sign_in_url: http://app.gonddo.com.br/public/request_invite
