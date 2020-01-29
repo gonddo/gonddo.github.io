@@ -1,5 +1,16 @@
 @import 'default_styles';
 
+.gnd-inspiration-title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: $gonddo-sans-serif;
+  color: $gonddo-dark-grey;
+  font-size: 1.4rem;
+}
+
 @media (max-width: 768px) {
   #gnd-inspiration {
     display: flex;

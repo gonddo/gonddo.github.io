@@ -1,22 +1,25 @@
 ---
 layout: home
 ---
+<section id="gnd-cover-image">
+</section>
 
 <section id="gnd-institutional-activities">
-  <div class="gnd-institutional-retailer">
-    <div class="gnd-institutional-title">
-      <h2>Varejista</h2><i class="material-icons">store</i> 
-    </div>
-    <div class="gnd-institutional-advantages">
-      <ul class="gnd-institutional-advantages-list">
-        <li>Compre produtos naturais no atacado dos melhores fornecedores</li>
-        <li>Diversifique seu estoque com produtos de qualidade</li>
-      </ul>
-    </div>
-    <div class="gnd-institutional-advantages-links">
-      <a href="#">saiba mais...</a>
-      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
-    </div>
+<div class="gnd-institutional-retailer">
+  <div class="gnd-institutional-title">
+    <h2>Varejista</h2><i class="material-icons">store</i> 
+  </div>
+  <div class="gnd-institutional-advantages">
+    <ul class="gnd-institutional-advantages-list">
+      <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores</li>
+    </ul>
+  </div>
+  <div class="gnd-institutional-advantages-links">
+    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero comprar</a>
+  </div>
+  <div class="gnd-institutional-learn-more">
+    <a href="#">saiba mais...</a>
+  </div>
   </div>
   <div class="gnd-institutional-supplier">
     <div class="gnd-institutional-title">
@@ -24,18 +27,20 @@ layout: home
     </div>
     <div class="gnd-institutional-advantages">
       <ul class="gnd-institutional-advantages-list">
-        <li>Ampliamos sua rede de contatos e distribuição</li>
-        <li>Colocamos seu produto em evidência para diversos compradores em todo o Brasil</li>
+        <li>Conecte-se com mais varejistas e aumente sua rede de distribuição</li>
       </ul>
     </div>
     <div class="gnd-institutional-advantages-links">
+      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero vender</a>
+    </div>
+    <div class="gnd-institutional-learn-more">
       <a href="#">saiba mais...</a>
-      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
     </div>
   </div>
 </section>
 
 <section id="gnd-inspiration">
+  <h2 class="gnd-inspiration-title">Como funciona?</h2>
   <div class="gnd-inspiration-item">
     <div class="gnd-inspiration-container">
       <div class="gnd-inspiration-number">
@@ -43,10 +48,10 @@ layout: home
       </div>
       <div class="gnd-inspiration-item-content">
         <div class="gnd-inspiration-item-title">
-          <h3>Produtos Únicos</h3>
+          <h3>Amplo sortimento</h3>
         </div>
         <div class="gnd-inspiration-item-text">
-          <p>Selecionamos marcas especiais e com produtos produzidos localmente para ajudar o estoque da sua loja a ficar ainda mais atrativo.</p>
+          <p>Tenha acesso a muitas marcas e produtos que mais se identificam com sua loja.</p>
         </div>
       </div>
     </div>
@@ -58,10 +63,10 @@ layout: home
       </div>
       <div class="gnd-inspiration-item-content">
         <div class="gnd-inspiration-item-title">
-          <h3>Compre de mais de uma marca</h3>
+          <h3>Melhores prazos</h3>
         </div>
         <div class="gnd-inspiration-item-text">
-          <p>Simplifique seu processo de compra de estoque. Compre de várias marcas em uma compra só.</p>
+          <p>Tenha até 60 dias de prazo para pagamento e parcelamento em até duas vezes.</p>
         </div>
       </div>
     </div>
@@ -73,10 +78,10 @@ layout: home
       </div>
       <div class="gnd-inspiration-item-content">
         <div class="gnd-inspiration-item-title">
-          <h3>Melhores prazos de pagamento</h3>
+          <h3>Compras mais simples</h3>
         </div>
         <div class="gnd-inspiration-item-text">
-          <p>Garantimos os melhores prazos de pagamento e parcelamento para ajudar o seu fluxo de caixa.</p>
+          <p>Simplifique seu processo de compra de estoque, adquirindo produtos em um lugar só.</p>
         </div>
       </div>
     </div>
