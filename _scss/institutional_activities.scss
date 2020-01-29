@@ -1,0 +1,63 @@
+@import 'default_styles';
+
+#gnd-institutional-activities {
+  display: flex;
+  flex-basis: 0;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-family: $gonddo-sans-serif;
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+}
+
+.gnd-institutional-retailer {
+  display: flex;
+  flex-grow: 1;
+  height: 30rem;
+  background-color: $gonddo-green;
+  min-width: 30rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 4rem #FFF;
+  border-bottom: solid 4rem #FFF;
+}
+
+.gnd-institutional-supplier {
+  display: flex;
+  flex-grow: 1;
+  height: 30rem;
+  min-width: 30rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 4rem $gonddo-green;
+  border-bottom: solid 4rem $gonddo-green;
+}
+
+.gnd-institutional-advantages {
+  margin: 1rem;
+}
+
+.gnd-institutional-advantages-list {
+  li {
+    font-size: 1.2rem;
+    max-width: 30rem;
+    margin: 2rem;
+  }
+}
+
+.gnd-institutional-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+}

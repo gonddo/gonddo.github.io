@@ -1,6 +1,33 @@
 ---
 layout: home
 ---
+
+<section id="gnd-institutional-activities">
+  <div class="gnd-institutional-retailer">
+    <div class="gnd-institutional-title">
+      <h2>Varejista</h2><i class="material-icons">store</i> 
+    </div>
+    <div class="gnd-institutional-advantages">
+      <ul class="gnd-institutional-advantages-list">
+        <li>Compre produtos naturais no atacado dos melhores fornecedores</li>
+        <li>Diversifique seu estoque com produtos de qualidade</li>
+      </ul>
+    </div>
+    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
+  </div>
+  <div class="gnd-institutional-supplier">
+    <div class="gnd-institutional-title">
+      <h2>Fornecedor</h2><i class="material-icons">business</i>
+    </div>
+    <div class="gnd-institutional-advantages">
+      <ul class="gnd-institutional-advantages-list">
+        <li>Ampliamos sua rede de contatos e distribuição</li>
+        <li>Colocamos seu produto em evidência para diversos compradores em todo o Brasil</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section id="gnd-sign-in-img-section">
   <div class="gnd-sign-in-description">
     <div class="gnd-sign-in-topic">
