@@ -13,7 +13,10 @@ layout: home
         <li>Diversifique seu estoque com produtos de qualidade</li>
       </ul>
     </div>
-    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
+    <div class="gnd-institutional-advantages-links">
+      <a href="#">saiba mais...</a>
+      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
+    </div>
   </div>
   <div class="gnd-institutional-supplier">
     <div class="gnd-institutional-title">
@@ -24,6 +27,10 @@ layout: home
         <li>Ampliamos sua rede de contatos e distribuição</li>
         <li>Colocamos seu produto em evidência para diversos compradores em todo o Brasil</li>
       </ul>
+    </div>
+    <div class="gnd-institutional-advantages-links">
+      <a href="#">saiba mais...</a>
+      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se</a>
     </div>
   </div>
 </section>
