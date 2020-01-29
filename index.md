@@ -34,34 +34,50 @@ layout: home
     </div>
   </div>
 </section>
+
 <section id="gnd-inspiration">
   <div class="gnd-inspiration-item">
-    <div class="gnd-inspiration-item-content">
-      <div class="gnd-inspiration-item-title">
-        <h3>Produtos Únicos</h3>
+    <div class="gnd-inspiration-container">
+      <div class="gnd-inspiration-number">
+        <span>1</span>
       </div>
-      <div class="gnd-inspiration-item-text">
-        <p>Selecionamos marcas especiais e com produtos produzidos localmente para ajudar o estoque da sua loja a ficar ainda mais atrativo.</p>
-      </div>
-    </div>
-  </div>
-  <div class="gnd-inspiration-item gnd-box-border">
-    <div class="gnd-inspiration-item-content">
-      <div class="gnd-inspiration-item-title">
-        <h3>Compre de mais de uma marca</h3>
-      </div>
-      <div class="gnd-inspiration-item-text">
-        <p>Simplifique seu processo de compra de estoque. Compre de várias marcas em uma compra só.</p>
+      <div class="gnd-inspiration-item-content">
+        <div class="gnd-inspiration-item-title">
+          <h3>Produtos Únicos</h3>
+        </div>
+        <div class="gnd-inspiration-item-text">
+          <p>Selecionamos marcas especiais e com produtos produzidos localmente para ajudar o estoque da sua loja a ficar ainda mais atrativo.</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="gnd-inspiration-item">
-    <div class="gnd-inspiration-item-content">
-      <div class="gnd-inspiration-item-title">
-        <h3>Melhores prazos de pagamento</h3>
+    <div class="gnd-inspiration-container">
+      <div class="gnd-inspiration-number">
+        <span>2</span>
       </div>
-      <div class="gnd-inspiration-item-text">
-        <p>Garantimos os melhores prazos de pagamento e parcelamento para ajudar o seu fluxo de caixa.</p>
+      <div class="gnd-inspiration-item-content">
+        <div class="gnd-inspiration-item-title">
+          <h3>Compre de mais de uma marca</h3>
+        </div>
+        <div class="gnd-inspiration-item-text">
+          <p>Simplifique seu processo de compra de estoque. Compre de várias marcas em uma compra só.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gnd-inspiration-item">
+    <div class="gnd-inspiration-container">
+      <div class="gnd-inspiration-number">
+        <span>3</span>
+      </div>
+      <div class="gnd-inspiration-item-content">
+        <div class="gnd-inspiration-item-title">
+          <h3>Melhores prazos de pagamento</h3>
+        </div>
+        <div class="gnd-inspiration-item-text">
+          <p>Garantimos os melhores prazos de pagamento e parcelamento para ajudar o seu fluxo de caixa.</p>
+        </div>
       </div>
     </div>
   </div>
