@@ -55,7 +55,7 @@
 
 .gnd-login-button {
   font-family: $gonddo-serif;
-  color: $gonddo-green;
+  color: $gonddo-brown;
   margin-right: 1.5rem;
   padding: 1rem;
   font-size: 1.2rem;
@@ -63,7 +63,7 @@
   transition: 0.3s;
 
   &:hover {
-    color: $gonddo-brown;
+    color: $gonddo-green;
     transition: 0.3s;
   }
 }
