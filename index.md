@@ -1,7 +1,8 @@
 ---
 layout: home
 ---
-<section id="gnd-cover-image">
+<section id="gnd-cover-image-section">
+  <span>Compre no atacado de forma mais simples</span>
 </section>
 
 <section id="gnd-institutional-activities">
