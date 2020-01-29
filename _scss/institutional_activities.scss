@@ -16,26 +16,25 @@
 .gnd-institutional-retailer {
   display: flex;
   flex-grow: 1;
-  height: 30rem;
+  height: 32rem;
   background-color: $gonddo-green;
+  color: #FFF;
   min-width: 30rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: solid 4rem #FFF;
-  border-bottom: solid 4rem #FFF;
 }
 
 .gnd-institutional-supplier {
   display: flex;
   flex-grow: 1;
-  height: 30rem;
+  height: 32rem;
   min-width: 30rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: solid 4rem $gonddo-green;
-  border-bottom: solid 4rem $gonddo-green;
+  background-color: $gonddo-brown;
+  color: #FFF;
 }
 
 .gnd-institutional-advantages {

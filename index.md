@@ -34,24 +34,8 @@ layout: home
     </div>
   </div>
 </section>
-
-<section id="gnd-sign-in-img-section">
-  <div class="gnd-sign-in-description">
-    <div class="gnd-sign-in-topic">
-      Pra sua loja
-    </div>
-    <div class="gnd-sign-in-title">
-      <h1>Encontre produtos únicos para sua loja</h1>
-    </div>
-    <div class="gnd-sign-in-txt">
-      <p>Gonddo conecta a sua loja com as marcas mais especiais, ajudando o seu estoque a ficar cada vez melhor.</p>
-    </div>
-    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Cadastre-se de graça</a>
-  </div>
-</section>
-
 <section id="gnd-inspiration">
-  <div class="gnd-inspiration-item gnd-background-icon-love">
+  <div class="gnd-inspiration-item">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>Produtos Únicos</h3>
@@ -61,7 +45,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item gnd-box-border gnd-background-icon-cart">
+  <div class="gnd-inspiration-item gnd-box-border">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>Compre de mais de uma marca</h3>
@@ -71,7 +55,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="gnd-inspiration-item gnd-background-icon-time">
+  <div class="gnd-inspiration-item">
     <div class="gnd-inspiration-item-content">
       <div class="gnd-inspiration-item-title">
         <h3>Melhores prazos de pagamento</h3>
