@@ -1,0 +1,45 @@
+@import 'default_styles';
+
+#gnd-supplier-sign-in {
+  padding: 2rem;
+  background-color: $gonddo-grey;
+  min-height: 100vh;
+}
+
+.gnd-supplier-sign-in-logo {
+  margin: 1rem 0 0 4rem;
+  width: 12rem;
+}
+
+.gnd-supplier-sign-in-portrait {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.gnd-supplier-sign-in-header {
+  margin: 0 0 6rem;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.gnd-supplier-sign-in-container {
+}
+.gnd-supplier-sign-in-title {
+  max-width: 45rem;
+  margin-left: 4rem;
+  font-size: 3rem;
+  h1 {
+    font-family: $gonddo-sans-serif;
+  }
+
+  strong {
+    background-color: $gonddo-blue;
+    color: #FFF;
+    font-family: $gonddo-sans-serif;
+    text-transform: uppercase;
+  }
+}

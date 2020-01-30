@@ -31,7 +31,7 @@ layout: home
       </ul>
     </div>
     <div class="gnd-institutional-advantages-links">
-      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero vender</a>
+      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="/cadastro-fornecedor">Quero vender</a>
     </div>
     <div class="gnd-institutional-learn-more">
       <a href="#">saiba mais...</a>
@@ -112,4 +112,3 @@ layout: home
     {% include carousel.html  height="20" unit="%" duration="7" %}
   </div>
 </section>
-
