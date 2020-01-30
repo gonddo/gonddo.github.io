@@ -1,5 +1,21 @@
 @import 'default_styles';
 
+@media (max-width:480px) {
+  .gnd-our-partners-title {
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (min-width:480px) {
+  .gnd-our-partners-title {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
+
 #gnd-our-partners {
   display: flex;
   justify-content: center;
@@ -15,7 +31,6 @@
 
 .gnd-our-partners-title {
   h3 {
-    font-size: 2rem;
     font-family: $gonddo-sans-serif;
     color: $gonddo-brown;
   }

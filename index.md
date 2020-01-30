@@ -91,6 +91,13 @@ layout: home
 <section id="gnd-our-mission">
   <div class="gnd-our-mission-container">
     <div class="gnd-our-mission-content">
+      <div class="gnd-our-mission-content-text">
+      <h2>Compre seu <strong>estoque</strong> de produtos naturais de forma <strong>descomplicada.</strong></h2>
+        <p>Tenha mais tempo para o que realmente importa: seus clientes.</p>
+      </div>
+      <div class="gnd-our-mission-call">
+      <h3>Somos o <strong>futuro</strong> do varejo</h3>
+      </div>
     </div>
     <div class="gnd-our-mission-image">
     </div>

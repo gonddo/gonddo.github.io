@@ -2,6 +2,7 @@
 
 .gnd-our-mission-container {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-around;
   align-items: center;
   flex-basis: 0;
@@ -10,6 +11,7 @@
 }
 
 .gnd-our-mission-image {
+  min-width: 30rem;
   display: flex;
   flex-grow: 1;
   height: 40rem;
@@ -20,7 +22,66 @@
 
 .gnd-our-mission-content {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 30rem;
+  display: flex;
   flex-grow: 1;
   height: 40rem;
   background-color: $gonddo-light-green;
 }
+
+.gnd-our-mission-content-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 40rem;
+  padding: 2rem 0 0 1rem;
+
+  h2 {
+    margin: 1rem 1rem 3rem;
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    font-size: 2.5rem;
+    color: $gonddo-brown;
+  }
+
+  p {
+    margin: 1rem;
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    font-size: 1.8rem;
+    color: $gonddo-brown;
+  }
+
+  strong {
+    font-family: $gonddo-sans-serif;
+    background-color: #FFF;
+  }
+}
+
+.gnd-our-mission-call {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 2rem;
+
+  h3 {
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-dark-grey;
+    padding: 1.5rem;
+    background-color: #FFF;
+    font-size: 3rem;
+  }
+
+  strong {
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-green;
+    font-size: 3rem;
+  }
+}
+
+
