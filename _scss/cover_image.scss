@@ -18,9 +18,15 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   #gnd-cover-image-section {
     background-image: url('/assets/img/cover_image_1024.png');
+  }
+}
+
+@media (min-width: 1024px) {
+  #gnd-cover-image-section {
+    background-image: url('/assets/img/cover_image_1280.png');
   }
 }
 
