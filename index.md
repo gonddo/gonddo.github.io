@@ -98,9 +98,11 @@ layout: home
 </section>
 
 <section id="gnd-our-partners">
-<div class="gnd-our-partners-title">
-</div>
-  <div class="gnd-our-partners-container">
+  <div class="gnd-our-partners-title">
+    <h3>Alguns de nossos parceiros</h3>
+  </div>
+  <div class="gnd-carousel-container">
+    {% include carousel.html  height="20" unit="%" duration="7" %}
   </div>
 </section>
 
