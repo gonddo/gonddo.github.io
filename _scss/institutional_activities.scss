@@ -1,5 +1,88 @@
 @import 'default_styles';
 
+@media (max-width:480px) {
+  #gnd-institutional-activities {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .gnd-institutional-advantages-list {
+    li {
+      font-size: 1.6rem;
+      max-width: 16rem;
+      margin: 1rem;
+    }
+  }
+
+  .gnd-institutional-advantages-links {
+    padding: 0 1rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-retailer {
+    height: 32rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-supplier {
+    height: 32rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-learn-more {
+    min-width: 16rem;
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (min-width:481px) {
+  #gnd-institutional-activities {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .gnd-institutional-advantages-list {
+    li {
+      font-size: 2rem;
+      max-width: 30rem;
+      margin: 2rem;
+    }
+  }
+
+  .gnd-institutional-advantages-links {
+    padding: 0 2rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-retailer {
+    height: 34rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-supplier {
+    height: 34rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-learn-more {
+    min-width: 30rem;
+    margin-bottom: 2rem;
+
+    a {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+
+
 #gnd-institutional-activities {
   display: flex;
   flex-basis: 0;
@@ -8,7 +91,6 @@
 
   h2 {
     font-family: $gonddo-sans-serif;
-    font-size: 3rem;
     margin: 3rem 0;
   }
 }
@@ -16,10 +98,8 @@
 .gnd-institutional-retailer {
   display: flex;
   flex-grow: 1;
-  height: 34rem;
   background-color: $gonddo-green;
   color: #FFF;
-  min-width: 30rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -28,8 +108,6 @@
 .gnd-institutional-supplier {
   display: flex;
   flex-grow: 1;
-  height: 34rem;
-  min-width: 30rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -40,9 +118,6 @@
 .gnd-institutional-advantages-list {
   li {
     text-align: center;
-    font-size: 2rem;
-    max-width: 30rem;
-    margin: 2rem;
   }
 }
 
@@ -59,9 +134,7 @@
 }
 
 .gnd-institutional-advantages-links {
-  padding: 0 2rem;
   display: flex;
-  min-width: 30rem;
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
@@ -71,13 +144,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 30rem;
   margin-bottom: 2rem;
   font-style: italic;
 
   a {
     text-decoration: none;
-    font-size: 1.2rem;
     color: #FFF;
     transition: 0.3s;
   }
