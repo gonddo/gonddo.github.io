@@ -88,3 +88,19 @@ layout: home
   </div>
 </section>
 
+<section id="gnd-our-mission">
+  <div class="gnd-our-mission-container">
+    <div class="gnd-our-mission-content">
+    </div>
+    <div class="gnd-our-mission-image">
+    </div>
+  </div>
+</section>
+
+<section id="gnd-our-partners">
+<div class="gnd-our-partners-title">
+</div>
+  <div class="gnd-our-partners-container">
+  </div>
+</section>
+

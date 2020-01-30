@@ -1,0 +1,26 @@
+@import 'default_styles';
+
+.gnd-our-mission-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 0;
+  margin: 3rem 0;
+  background-color: $gonddo-green;
+}
+
+.gnd-our-mission-image {
+  display: flex;
+  flex-grow: 1;
+  height: 40rem;
+  background-image: url('/assets/img/mission_image_1024.png');
+  background-size: auto 40rem;
+
+}
+
+.gnd-our-mission-content {
+  display: flex;
+  flex-grow: 1;
+  height: 40rem;
+  background-color: $gonddo-light-green;
+}
