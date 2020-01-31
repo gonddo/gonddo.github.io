@@ -1,2 +1,3 @@
 home: "/"
-supplier-sign-up: "/cadastro-fornecedor"
+supplier-sign-in: "/cadastro-fornecedor"
+retailer-sign-in: "/cadastro-varejista"

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  {% include head.html %}
+  <body>
+    <section id="gnd-retailer-sign-in">
+      <div class="gnd-retailer-sign-in-portrait">
+        {% include supplier_sign_in_header.html %}
+        <div class="gnd-retailer-sign-in-form-container">
+          {{ content }}
+          {% include supplier_sign_in_form.html %}
+        </div>
+        <div class="gnd-retailer-sign-in-info">
+          {% include supplier_sign_in_benefits.html %}
+
+          <section id="gnd-our-partners">
+            <div class="gnd-our-partners-title">
+              <h3>Alguns dos que já estão na Gonddo</h3>
+            </div>
+            <div class="gnd-carousel-container">
+              {% include carousel.html  height="20" unit="%" duration="7" %}
+            </div>
+          </section>
+        </div>
+      </div>
+      </div>
+    </section>
+  </body>
+</html>
+
