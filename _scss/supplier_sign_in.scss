@@ -1,17 +1,15 @@
 @import 'default_styles';
 
 #gnd-supplier-sign-in {
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   background-color: $gonddo-grey;
   min-height: 100vh;
 }
 
 .gnd-supplier-sign-in-portrait {
   background-color: #fff;
-  min-height: 100vh;
   background-image: url('/assets/img/supplier_sign_in_image_1024.png');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position-y: 24rem;
 }
 
@@ -58,7 +56,7 @@
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 8rem;
+  margin-bottom: 16rem;
 }
 
 .gnd-supplier-sign-in-title {
@@ -122,23 +120,13 @@
 .gnd-supplier-sign-in-info {
   display: flex;
   flex-direction: column;
-  height: 30rem;
 }
 
 #gnd-supplier-benefits {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 3rem;
+  background-color: green;
   height: 30rem;
-  background-color: #FFF;
-}
-
-.gnd-supplier-sign-in-carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40rem;
-  background-color: #FFF;
 }

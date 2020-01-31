@@ -1,6 +1,6 @@
 @import 'default_styles';
 
-.gnd-inspiration-title {
+.gnd-supplier-inspiration-title {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -12,14 +12,14 @@
 }
 
 @media (max-width: 768px) {
-  #gnd-inspiration {
+  #gnd-supplier-inspiration {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #FFF;
 
-    .gnd-inspiration-item:nth-child(odd) {
+    .gnd-supplier-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -28,7 +28,7 @@
       flex-grow: 1;
     }
 
-    .gnd-inspiration-item:nth-child(even) {
+    .gnd-supplier-inspiration-item:nth-child(even) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -38,7 +38,7 @@
     }
   }
 
-  .gnd-inspiration-container {
+  .gnd-supplier-inspiration-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,7 +46,7 @@
     flex-basis: 0;
   }
 
-  .gnd-inspiration-number {
+  .gnd-supplier-inspiration-number {
     font-size: 2.5rem;
     span {
       font-family: $gonddo-serif;
@@ -54,7 +54,7 @@
     }
   }
 
-  .gnd-inspiration-item-content {
+  .gnd-supplier-inspiration-item-content {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -65,7 +65,7 @@
     padding: 0 1rem;
   }
 
-  .gnd-inspiration-item-title {
+  .gnd-supplier-inspiration-item-title {
     max-width: 20rem;
     margin: 0;
     h3 {
@@ -75,26 +75,16 @@
       color: $gonddo-dark-grey;
     }
   }
-
-  .gnd-inspiration-item-text {
-    margin: 0;
-    text-align: justify;
-    p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
-      color: $gonddo-dark-grey;
-    }
-  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  #gnd-inspiration {
+  #gnd-supplier-inspiration {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #FFF;
 
-    .gnd-inspiration-item:nth-child(odd) {
+    .gnd-supplier-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -103,7 +93,7 @@
       flex-grow: 1;
     }
 
-    .gnd-inspiration-item:nth-child(even) {
+    .gnd-supplier-inspiration-item:nth-child(even) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -113,7 +103,7 @@
     }
   }
 
-  .gnd-inspiration-container {
+  .gnd-supplier-inspiration-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -121,7 +111,7 @@
     flex-basis: 0;
   }
 
-  .gnd-inspiration-number {
+  .gnd-supplier-inspiration-number {
     font-size: 4rem;
     span {
       font-family: $gonddo-serif;
@@ -129,7 +119,7 @@
     }
   }
 
-  .gnd-inspiration-item-content {
+  .gnd-supplier-inspiration-item-content {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -140,7 +130,7 @@
     padding: 0 2rem;
   }
 
-  .gnd-inspiration-item-title {
+  .gnd-supplier-inspiration-item-title {
     max-width: 20rem;
     margin: 0;
     h3 {
@@ -151,26 +141,16 @@
       color: $gonddo-dark-grey;
     }
   }
-
-  .gnd-inspiration-item-text {
-    text-align: justify;
-    margin: 0;
-    p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
-      color: $gonddo-dark-grey;
-    }
-  }
 }
 
 @media (min-width: 1025px) {
-  #gnd-inspiration {
+  #gnd-supplier-inspiration {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #FFF;
 
-    .gnd-inspiration-item:nth-child(odd) {
+    .gnd-supplier-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -179,7 +159,7 @@
       flex-grow: 1;
     }
 
-    .gnd-inspiration-item:nth-child(even) {
+    .gnd-supplier-inspiration-item:nth-child(even) {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -189,7 +169,7 @@
     }
   }
 
-  .gnd-inspiration-container {
+  .gnd-supplier-inspiration-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -197,7 +177,7 @@
     flex-basis: 0;
   }
 
-  .gnd-inspiration-number {
+  .gnd-supplier-inspiration-number {
     font-size: 4rem;
     span {
       font-family: $gonddo-serif;
@@ -205,7 +185,7 @@
     }
   }
 
-  .gnd-inspiration-item-content {
+  .gnd-supplier-inspiration-item-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -215,7 +195,7 @@
     padding: 0 2rem;
   }
 
-  .gnd-inspiration-item-title {
+  .gnd-supplier-inspiration-item-title {
     max-width: 20rem;
     margin: 0;
     h3 {
@@ -223,16 +203,6 @@
       font-family: $gonddo-serif;
       font-size: 1.2rem;
       font-weight: 600;
-      color: $gonddo-dark-grey;
-    }
-  }
-
-  .gnd-inspiration-item-text {
-    text-align: justify;
-    margin: 0;
-    p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
       color: $gonddo-dark-grey;
     }
   }
