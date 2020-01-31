@@ -5,5 +5,5 @@ permalink: /cadastro-varejista/
 ---
 
 <div class="gnd-retailer-sign-in-title">
-  <h1>Seja um <strong>fornecedor</strong> Gonddo e aumente suas vendas.</h1>
+  <h1>Seja um <strong>lojista</strong> parceiro da Gonddo e evolua seu comércio.</h1>
 </div>

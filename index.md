@@ -15,7 +15,7 @@ layout: home
     </ul>
   </div>
   <div class="gnd-institutional-advantages-links">
-    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero comprar</a>
+    <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
   </div>
   <div class="gnd-institutional-learn-more">
     <a href="#">saiba mais...</a>
@@ -31,7 +31,7 @@ layout: home
       </ul>
     </div>
     <div class="gnd-institutional-advantages-links">
-      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="/cadastro-fornecedor">Quero vender</a>
+      <a class="gnd-sign-in-link" href="/cadastro-fornecedor">Quero vender</a>
     </div>
   </div>
 </section>
