@@ -58,8 +58,8 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     min-width: 16rem;
     max-width: 20rem;
     padding: 0 1rem;
@@ -123,8 +123,8 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     min-width: 20rem;
     max-width: 20rem;
     padding: 0 2rem;
@@ -149,11 +149,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #FFF;
+    padding-top: 2rem;
 
     .gnd-supplier-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       flex-basis: 0;
       min-height: 8rem;
       flex-grow: 1;
@@ -162,7 +163,7 @@
     .gnd-supplier-inspiration-item:nth-child(even) {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       flex-basis: 0;
       min-height: 8rem;
       flex-grow: 1;
@@ -188,21 +189,28 @@
   .gnd-supplier-inspiration-item-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     min-width: 20rem;
     max-width: 20rem;
     padding: 0 2rem;
+
+
+    i {
+      color: $gonddo-green;
+      font-size: 4rem;
+    }
   }
 
   .gnd-supplier-inspiration-item-title {
     max-width: 20rem;
     margin: 0;
+
     h3 {
+      font-family: $gonddo-sans-serif;
       text-align: center;
-      font-family: $gonddo-serif;
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 400;
       color: $gonddo-dark-grey;
     }
   }

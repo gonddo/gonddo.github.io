@@ -33,9 +33,6 @@ layout: home
     <div class="gnd-institutional-advantages-links">
       <a id="gnd-signInBtn" class="gnd-sign-in-link" href="/cadastro-fornecedor">Quero vender</a>
     </div>
-    <div class="gnd-institutional-learn-more">
-      <a href="#">saiba mais...</a>
-    </div>
   </div>
 </section>
 

@@ -81,8 +81,6 @@
 }
 
 
-
-
 #gnd-institutional-activities {
   display: flex;
   flex-basis: 0;
@@ -141,9 +139,8 @@
 }
 
 .gnd-institutional-learn-more {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  position: absolute;
+  bottom: 0;
   margin-bottom: 2rem;
   font-style: italic;
 
