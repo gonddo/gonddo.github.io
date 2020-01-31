@@ -6,14 +6,13 @@
   min-height: 100vh;
 }
 
-.gnd-supplier-sign-in-logo {
-  margin: 1rem 0 0 4rem;
-  width: 12rem;
-}
-
 .gnd-supplier-sign-in-portrait {
   background-color: #fff;
   min-height: 100vh;
+  background-image: url('/assets/img/supplier_sign_in_image_1024.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 24rem;
 }
 
 .gnd-supplier-sign-in-header {
@@ -26,10 +25,47 @@
   }
 }
 
-.gnd-supplier-sign-in-container {
+.gnd-supplier-sign-in-logo {
+  margin: 1rem 0 0 4rem;
+  width: 12rem;
 }
+
+.gnd-supplier-link-to-retailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  a {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $gonddo-sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: $gonddo-green;
+
+    &:hover {
+      color: $gonddo-blue;
+    }
+  }
+}
+
+.gnd-supplier-sign-in-form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 8rem;
+}
+
 .gnd-supplier-sign-in-title {
-  max-width: 45rem;
+  display: flex;
+  align-self: flex-start;
+  max-width: 42rem;
+  min-width: 24rem;
   margin: 0 0 4rem 4rem;
   font-size: 3rem;
   h1 {
@@ -44,10 +80,65 @@
   }
 }
 
-.gnd-supplier-sign-in-image {
+.gnd-supplier-form {
+  border-top: solid 5px $gonddo-light-green;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  background-color: $gonddo-lightest-grey;
+  width: 20rem;
+
+  h1 {
+    max-width: 24rem;
+    font-family: $gonddo-sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.gnd-supplier-sign-in-field {
+  width: 80%;
+  height: 2.4rem;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+}
+
+.gnd-supplier-sign-in-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: $gonddo-brown;
+  font-family: $gonddo-sans-serif;
+  border: solid 1px gray;
+  border-radius: 0;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.gnd-supplier-sign-in-info {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+}
+
+#gnd-supplier-benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  height: 30rem;
+  background-color: #FFF;
+}
+
+.gnd-supplier-sign-in-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  min-height: 50rem;
-  background-image: url('/assets/img/supplier_sign_in_image_1024.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 40rem;
+  background-color: #FFF;
 }

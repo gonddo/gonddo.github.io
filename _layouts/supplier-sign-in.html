@@ -4,8 +4,19 @@
   <body>
     <section id="gnd-supplier-sign-in">
       <div class="gnd-supplier-sign-in-portrait">
-        {{ content }}
-        {% include supplier_sign_in_form.html %}
+        {% include supplier_sign_in_header.html %}
+        <div class="gnd-supplier-sign-in-form-container">
+          {{ content }}
+          {% include supplier_sign_in_form.html %}
+        </div>
+        <div class="gnd-supplier-sign-in-info">
+          {% include supplier_sign_in_benefits.html %}
+
+          <div class="gnd-supplier-sign-in-carousel">
+            {% include carousel.html %}
+          </div>
+        </div>
+      </div>
       </div>
     </section>
   </body>
