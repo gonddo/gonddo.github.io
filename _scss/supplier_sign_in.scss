@@ -30,7 +30,7 @@
 }
 .gnd-supplier-sign-in-title {
   max-width: 45rem;
-  margin-left: 4rem;
+  margin: 0 0 4rem 4rem;
   font-size: 3rem;
   h1 {
     font-family: $gonddo-sans-serif;
@@ -42,4 +42,12 @@
     font-family: $gonddo-sans-serif;
     text-transform: uppercase;
   }
+}
+
+.gnd-supplier-sign-in-image {
+  width: 100%;
+  min-height: 50rem;
+  background-image: url('/assets/img/supplier_sign_in_image_1024.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

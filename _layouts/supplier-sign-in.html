@@ -2,7 +2,12 @@
 <html lang="pt-br">
   {% include head.html %}
   <body>
-    {{ content }}
+    <section id="gnd-supplier-sign-in">
+      <div class="gnd-supplier-sign-in-portrait">
+        {{ content }}
+        {% include supplier_sign_in_form.html %}
+      </div>
+    </section>
   </body>
 </html>
 
