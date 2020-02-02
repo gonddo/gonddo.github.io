@@ -1,6 +1,6 @@
 ---
-title: Cadastro de Fornecedores
-layout: supplier-sign-in
+title: Cadastro de Varejista
+layout: retailer-sign-in
 permalink: /cadastro-varejista/
 ---
 
