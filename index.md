@@ -5,21 +5,18 @@ layout: home
 </section>
 
 <section id="gnd-institutional-activities">
-<div class="gnd-institutional-retailer">
-  <div class="gnd-institutional-title">
-    <h2>Varejista</h2><i class="material-icons">store</i> 
-  </div>
-  <div class="gnd-institutional-advantages">
-    <ul class="gnd-institutional-advantages-list">
-      <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores</li>
-    </ul>
-  </div>
-  <div class="gnd-institutional-advantages-links">
-    <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
-  </div>
-  <div class="gnd-institutional-learn-more">
-    <a href="#">saiba mais...</a>
-  </div>
+  <div class="gnd-institutional-retailer">
+    <div class="gnd-institutional-title">
+      <h2>Varejista</h2><i class="material-icons">store</i>
+    </div>
+    <div class="gnd-institutional-advantages">
+      <ul class="gnd-institutional-advantages-list">
+        <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores</li>
+      </ul>
+    </div>
+    <div class="gnd-institutional-advantages-links">
+      <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
+    </div>
   </div>
   <div class="gnd-institutional-supplier">
     <div class="gnd-institutional-title">

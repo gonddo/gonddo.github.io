@@ -1,5 +1,69 @@
 @import 'default_styles';
 
+@media (max-width: 768px) {
+  .gnd-our-mission-content {
+    min-width: 20rem;
+  }
+
+  .gnd-our-mission-content-text {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  .gnd-our-mission-call {
+    h3 {
+      font-size: 2rem;
+    }
+
+    strong {
+      font-size: 2rem;
+    }
+  }
+
+  .gnd-our-mission-image {
+    min-width: 20rem;
+    height: 42rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .gnd-our-mission-content {
+    min-width: 30rem;
+  }
+
+  .gnd-our-mission-content-text {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin: 1rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  .gnd-our-mission-call {
+    h3 {
+      font-size: 3rem;
+    }
+
+    strong {
+      font-size: 3rem;
+    }
+  }
+
+  .gnd-our-mission-image {
+    min-width: 30rem;
+    height: 40rem;
+  }
+}
+
 .gnd-our-mission-container {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -11,10 +75,8 @@
 }
 
 .gnd-our-mission-image {
-  min-width: 30rem;
   display: flex;
   flex-grow: 1;
-  height: 40rem;
   background-image: url('/assets/img/mission_image_1024.png');
   background-size: auto 40rem;
 
@@ -24,7 +86,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 30rem;
   display: flex;
   flex-grow: 1;
   height: 40rem;
@@ -43,15 +104,12 @@
     margin: 1rem 1rem 3rem;
     font-weight: 600;
     font-family: $gonddo-sans-serif;
-    font-size: 2.5rem;
     color: $gonddo-brown;
   }
 
   p {
-    margin: 1rem;
     font-weight: 600;
     font-family: $gonddo-sans-serif;
-    font-size: 1.8rem;
     color: $gonddo-brown;
   }
 
@@ -73,14 +131,12 @@
     color: $gonddo-dark-grey;
     padding: 1.5rem;
     background-color: #FFF;
-    font-size: 3rem;
   }
 
   strong {
     font-weight: 600;
     font-family: $gonddo-sans-serif;
     color: $gonddo-green;
-    font-size: 3rem;
   }
 }
 
