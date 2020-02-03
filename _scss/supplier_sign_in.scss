@@ -1,9 +1,57 @@
 @import 'default_styles';
 
-#gnd-supplier-sign-in {
-  padding: 2rem 2rem 0 2rem;
-  background-color: $gonddo-grey;
-  min-height: 100vh;
+@media (max-width:768px) {
+  #gnd-supplier-sign-in {
+    min-height: 100vh;
+  }
+
+  .gnd-supplier-sign-in-header {
+    margin: 0 0 2rem;
+
+    ul {
+      justify-content: center;
+    }
+  }
+  .gnd-supplier-sign-in-logo {
+    margin: 1rem 0;
+    width: 12rem;
+  }
+
+  .gnd-supplier-sign-in-title {
+    text-align: center;
+    font-size: 2rem;
+    max-width: 42rem;
+    min-width: 20rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width:769px) {
+  #gnd-supplier-sign-in {
+    padding: 2rem 2rem 0 2rem;
+    background-color: $gonddo-grey;
+    min-height: 100vh;
+  }
+
+  .gnd-supplier-sign-in-header {
+    margin: 0 0 6rem;
+
+    ul {
+      justify-content: space-between;
+    }
+  }
+
+  .gnd-supplier-sign-in-logo {
+    margin: 1rem 0 0 4rem;
+    width: 12rem;
+  }
+
+  .gnd-supplier-sign-in-title {
+    font-size: 3rem;
+    max-width: 42rem;
+    min-width: 24rem;
+    margin: 0 0 4rem 4rem;
+  }
 }
 
 .gnd-supplier-sign-in-portrait {
@@ -14,18 +62,11 @@
 }
 
 .gnd-supplier-sign-in-header {
-  margin: 0 0 6rem;
-
   ul {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
   }
-}
-
-.gnd-supplier-sign-in-logo {
-  margin: 1rem 0 0 4rem;
-  width: 12rem;
 }
 
 .gnd-supplier-link-to-retailer {
@@ -62,10 +103,7 @@
 .gnd-supplier-sign-in-title {
   display: flex;
   align-self: flex-start;
-  max-width: 42rem;
-  min-width: 24rem;
-  margin: 0 0 4rem 4rem;
-  font-size: 3rem;
+
   h1 {
     font-family: $gonddo-sans-serif;
   }
