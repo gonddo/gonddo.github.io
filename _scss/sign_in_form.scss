@@ -8,6 +8,17 @@
   min-height: 30rem;
 }
 
+.gnd-select-input {
+  height: 2.4rem;
+  background-color: #FFF;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+
+  option:disabled {
+    color: $gonddo-grey;
+  }
+}
+
 .gnd-sign-in-form {
   display: flex;
   flex-direction: column;
