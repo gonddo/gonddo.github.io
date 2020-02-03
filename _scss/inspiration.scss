@@ -8,7 +8,8 @@
   font-weight: 600;
   font-family: $gonddo-sans-serif;
   color: $gonddo-dark-grey;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -26,6 +27,7 @@
       flex-basis: 0;
       min-height: 12rem;
       flex-grow: 1;
+      margin-bottom: 1rem;
     }
 
     .gnd-inspiration-item:nth-child(even) {
@@ -35,6 +37,7 @@
       flex-basis: 0;
       min-height: 12rem;
       flex-grow: 1;
+      margin-bottom: 1rem;
     }
   }
 
@@ -58,19 +61,21 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
     min-width: 16rem;
+    min-height: 10rem;
     max-width: 20rem;
     padding: 0 1rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif; font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
       font-weight: 600;
       color: $gonddo-dark-grey;
     }
@@ -78,10 +83,9 @@
 
   .gnd-inspiration-item-text {
     margin: 0;
-    text-align: justify;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.2rem;
       color: $gonddo-dark-grey;
     }
   }
@@ -133,31 +137,31 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
     min-width: 20rem;
+    min-height: 10rem;
     max-width: 20rem;
     padding: 0 2rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif;
-      font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.6rem;
       font-weight: 600;
       color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-text {
-    text-align: justify;
     margin: 0;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
       color: $gonddo-dark-grey;
     }
   }
@@ -208,31 +212,31 @@
   .gnd-inspiration-item-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
     min-width: 20rem;
+    min-height: 10rem;
     max-width: 20rem;
     padding: 0 2rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif;
-      font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.6rem;
       font-weight: 600;
       color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-text {
-    text-align: justify;
     margin: 0;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
       color: $gonddo-dark-grey;
     }
   }

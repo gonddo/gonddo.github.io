@@ -1,6 +1,10 @@
 @import 'default_styles';
 
 @media (max-width: 768px) {
+  .gnd-our-mission-image {
+    background-image: url('/assets/img/mission_image_480_2.png');
+  }
+
   .gnd-our-mission-content {
     min-width: 20rem;
   }
@@ -33,6 +37,10 @@
 }
 
 @media (min-width: 769px) {
+  .gnd-our-mission-image {
+    background-image: url('/assets/img/mission_image_768.png');
+  }
+
   .gnd-our-mission-content {
     min-width: 30rem;
   }
@@ -77,7 +85,6 @@
 .gnd-our-mission-image {
   display: flex;
   flex-grow: 1;
-  background-image: url('/assets/img/mission_image_1024.png');
   background-size: auto 40rem;
 
 }
