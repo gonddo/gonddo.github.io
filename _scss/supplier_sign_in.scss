@@ -24,6 +24,10 @@
     min-width: 20rem;
     margin: 1rem;
   }
+
+  .gnd-supplier-sign-in-form-container {
+    margin-bottom: 6rem;
+  }
 }
 
 @media (min-width:769px) {
@@ -51,6 +55,10 @@
     max-width: 42rem;
     min-width: 24rem;
     margin: 0 0 4rem 4rem;
+  }
+
+  .gnd-supplier-sign-in-form-container {
+    margin-bottom: 16rem;
   }
 }
 
@@ -97,7 +105,6 @@
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 16rem;
 }
 
 .gnd-supplier-sign-in-title {

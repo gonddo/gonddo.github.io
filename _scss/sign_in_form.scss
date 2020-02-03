@@ -33,9 +33,9 @@
   width: calc(80% + 2rem);
   font: 400 13.3333px Arial;
 
- span {
-  color: $gonddo-dark-brown;
- }
+  span {
+    color: $gonddo-dark-brown;
+  }
   input {
     margin: 0.5rem;
     position: absolute;
@@ -90,7 +90,7 @@
 }
 
 @media (min-width: 601px) {
- .gnd-sign-in-form-container {
+  .gnd-sign-in-form-container {
     width: 24rem;
   }
 }
