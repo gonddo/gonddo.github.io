@@ -1,18 +1,12 @@
 <form class="gnd-supplier-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
   <h1>Cadastre-se e aumente suas vendas</h1>
-        <input type="hidden" id="retailer_contact_option" name="occupation-contact-field" value="Comerciante">
+        <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
         <input class="gnd-supplier-sign-in-field"
           id="brand-name" type="text" name="brand"
           placeholder="Sua marca" required
           oninvalid="this.setCustomValidity('Precisamos saber o nome da sua marca :)')"
           oninput="setCustomValidity('')"
           title="Nome da sua Marca">
-        <input class="gnd-supplier-sign-in-field"
-          id="brand-site" type="text" name="brand-site"
-          placeholder="Site da sua marca" required
-          oninvalid="this.setCustomValidity('Precisamos saber o site caso você possua um :)')"
-          oninput="setCustomValidity('')"
-          title="Site da Marca">
         <input class="gnd-supplier-sign-in-field"
           id="customer-name" type="text" name="name"
           placeholder="Informe seu nome" required
@@ -31,24 +25,26 @@
           oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
           oninput="setCustomValidity('')"
           title="Cidade em que atua">
-        <select class="gnd-select-input">
-          <option value="0">Selecione a categoria:</option>
-          <option value="1">Cosméticos</option>
-          <option value="2">Acessórios</option>
-          <option value="3">Maquiagem</option>
+
+        <select class="gnd-select-input" required>
+          <option value="" disabled selected>Tipo de loja:</option>
+          <option value="1">Loja Física</option>
+          <option value="2">Loja Online</option>
+          <option value="3">Loja Física + Loja Online</option>
+          <option value="4">Sou revendedor</option>
         </select>
 
-        <select class="gnd-select-input">
-          <option value="0">Número de lojas em que sua marca está presente</option>
-          <option value="1">de 1 a 10</option>
-          <option value="2">de 11 a 20</option>
-          <option value="3">de 21 a 10</option>
-          <option value="4">de 31 a 10</option>
-          <option value="5">de 41 a 10</option>
-          <option value="6">de 51 a 100</option>
-          <option value="7">de 101 a 20</option>
-          <option value="8">mais de 200</option>
-        </select>
+        <input class="gnd-supplier-sign-in-field"
+          id="customer-store" type="text" name="store-name"
+          placeholder="Qual o nome da sua loja?"
+          oninput="setCustomValidity('Favor informar o nome da sua loja')"
+          title="Store name">
+
+        <input class="gnd-supplier-sign-in-field"
+          id="customer-website" type="url" name="customer-site-url"
+          placeholder="Qual o site da sua loja?"
+          oninput="setCustomValidity('Favor informar o site da sua loja')"
+          title="Site url">
 
         <input class="gnd-supplier-sign-in-submit-btn" type="submit" value="Cadastrar">
 </form>

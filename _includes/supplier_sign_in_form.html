@@ -1,6 +1,6 @@
 <form class="gnd-supplier-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
   <h1>Cadastre-se e aumente suas vendas</h1>
-        <input type="hidden" id="supplier_contact_option" name="occupation-contact-field" value="Fabricante">
+        <input type="hidden" id="supplier_option" name="profile" value="supplier" required>
         <input class="gnd-supplier-sign-in-field"
           id="brand-name" type="text" name="brand"
           placeholder="Sua marca" required
@@ -36,7 +36,7 @@
           <option value="" disabled selected>Selecione a categoria:</option>
           <option value="1">Cosméticos</option>
           <option value="2">Acessórios</option>
-          <option value="3">Maquiagem</option>
+          <option value="3">Outros</option>
         </select>
 
         <select class="gnd-select-input">
