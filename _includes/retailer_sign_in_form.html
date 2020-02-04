@@ -1,32 +1,32 @@
-<form class="gnd-supplier-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
+<form class="gnd-retailer-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
   <h1>Cadastre-se e aumente suas vendas</h1>
         <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field"
           id="brand-name" type="text" name="brand"
           placeholder="Sua marca" required
           oninvalid="this.setCustomValidity('Precisamos saber o nome da sua marca :)')"
           oninput="setCustomValidity('')"
           title="Nome da sua Marca">
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field"
           id="customer-name" type="text" name="name"
           placeholder="Informe seu nome" required
           oninvalid="this.setCustomValidity('Por favor insira o seu nome completo')"
           oninput="setCustomValidity('')"
           title="Nome Completo">
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field"
           id="customer-email" type="email" name="email"
           placeholder="Informe seu email" required
           oninvalid="this.setCustomValidity('Por favor insira o seu email')"
           oninput="setCustomValidity('')"
           title="Email">
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field"
           id="city" type="text" name="city"
           placeholder="Cidade" required
           oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
           oninput="setCustomValidity('')"
           title="Cidade em que atua">
 
-        <select class="gnd-select-input" required>
+        <select class="gnd-select-input" required onchange="">
           <option value="" disabled selected>Tipo de loja:</option>
           <option value="1">Loja Física</option>
           <option value="2">Loja Online</option>
@@ -34,17 +34,17 @@
           <option value="4">Sou revendedor</option>
         </select>
 
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field gnd-retailer-conditional-form-field"
           id="customer-store" type="text" name="store-name"
           placeholder="Qual o nome da sua loja?"
           oninput="setCustomValidity('Favor informar o nome da sua loja')"
           title="Store name">
 
-        <input class="gnd-supplier-sign-in-field"
+        <input class="gnd-retailer-sign-in-field gnd-retailer-conditional-form-field"
           id="customer-website" type="url" name="customer-site-url"
           placeholder="Qual o site da sua loja?"
           oninput="setCustomValidity('Favor informar o site da sua loja')"
           title="Site url">
 
-        <input class="gnd-supplier-sign-in-submit-btn" type="submit" value="Cadastrar">
+        <input class="gnd-retailer-sign-in-submit-btn" type="submit" value="Cadastrar">
 </form>
