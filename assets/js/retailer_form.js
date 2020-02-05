@@ -27,10 +27,12 @@ ShowRelatedFields = function(){
 
   function showField(fieldToShow) {
     document.getElementById(fieldToShow).classList.remove("gnd-retailer-conditional-form-field");
+    document.getElementById(fieldToShow).required = true;
   }
 
   function hideField(fieldToHide) {
     document.getElementById(fieldToHide).classList.add("gnd-retailer-conditional-form-field");
+    document.getElementById(fieldToHide).required = false;
   }
 
   return {
