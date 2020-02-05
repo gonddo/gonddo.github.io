@@ -1,47 +1,55 @@
 <form class="gnd-supplier-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
-  <h1>Cadastre-se e aumente suas vendas</h1>
+  <h1>Cadastre-se de graça</h1>
   <input type="hidden" id="supplier_option" name="profile" value="supplier" required>
   <input class="gnd-supplier-sign-in-field"
     id="brand-name" type="text" name="brand"
     placeholder="Sua marca" required
     oninvalid="this.setCustomValidity('Precisamos saber o nome da sua marca :)')"
-    oninput="setCustomValidity('')"
+    oninput="this.setCustomValidity('')"
     title="Nome da sua Marca">
   <input class="gnd-supplier-sign-in-field"
     id="brand-site" type="text" name="brand_website"
     placeholder="Site da sua marca" required
     pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
     oninvalid="this.setCustomValidity('Precisamos saber o seu site :)')"
-    oninput="setCustomValidity('')"
+    oninput="this.setCustomValidity('')"
     title="Site da Marca">
   <input class="gnd-supplier-sign-in-field"
     id="customer-name" type="text" name="name"
     placeholder="Seu nome" required
     oninvalid="this.setCustomValidity('Por favor insira o seu nome completo')"
-    oninput="setCustomValidity('')"
+    oninput="this.setCustomValidity('')"
     title="Nome Completo">
   <input class="gnd-supplier-sign-in-field"
     id="customer-email" type="email" name="email"
     placeholder="Seu email" required
     oninvalid="this.setCustomValidity('Por favor insira o seu email')"
-    oninput="setCustomValidity('')"
+    oninput="this.setCustomValidity('')"
     title="Email">
   <input class="gnd-supplier-sign-in-field"
     id="city" type="text" name="city"
     placeholder="Cidade" required
     oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
-    oninput="setCustomValidity('')"
+    oninput="this.setCustomValidity('')"
     title="Cidade em que atua">
 
-  <select class="gnd-select-input" name="supplier_category">
+  <select class="gnd-select-input"
+    name="supplier_category"
+    oninvalid="this.setCustomValidity('Por favor insira a qual segmento pertence')"
+    oninput="this.setCustomValidity('')"
+    required>
     <option value="" disabled selected>Selecione a categoria:</option>
     <option value="cosmetics">Cosméticos</option>
     <option value="accessories">Acessórios</option>
     <option value="other">Outros</option>
   </select>
 
-  <select class="gnd-select-input" name="range_of_associated_stores">
-    <option value="0" disabled selected>Número de lojas parceiras:</option>
+  <select class="gnd-select-input"
+          name="range_of_associated_stores"
+          oninvalid="this.setCustomValidity('Por favor insira quantas lojas trabalham em conjunto com você')"
+          oninput="this.setCustomValidity('')"
+          required>
+    <option value="" disabled selected>Número de lojas parceiras:</option>
     <option value="1-10">de 1 a 10</option>
     <option value="11-20">de 11 a 20</option>
     <option value="21-30">de 21 a 30</option>

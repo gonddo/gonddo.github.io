@@ -5,5 +5,5 @@ permalink: /cadastro-fornecedor/
 ---
 
 <div class="gnd-supplier-sign-in-title">
-  <h1>Seja um <strong>fornecedor</strong> Gonddo e aumente suas vendas.</h1>
+  <h1>Seja um <strong>fornecedor</strong> Gonddo e aumente suas vendas no atacado.</h1>
 </div>
