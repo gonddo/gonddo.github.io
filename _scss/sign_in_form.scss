@@ -8,6 +8,17 @@
   min-height: 30rem;
 }
 
+.gnd-select-input {
+  height: 2.4rem;
+  background-color: #FFF;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+
+  option:disabled {
+    color: $gonddo-grey;
+  }
+}
+
 .gnd-sign-in-form {
   display: flex;
   flex-direction: column;
@@ -33,9 +44,9 @@
   width: calc(80% + 2rem);
   font: 400 13.3333px Arial;
 
- span {
-  color: $gonddo-dark-brown;
- }
+  span {
+    color: $gonddo-dark-brown;
+  }
   input {
     margin: 0.5rem;
     position: absolute;
@@ -90,7 +101,11 @@
 }
 
 @media (min-width: 601px) {
- .gnd-sign-in-form-container {
+  .gnd-sign-in-form-container {
     width: 24rem;
   }
+}
+
+.gnd-retailer-conditional-form-field {
+  display: none;
 }

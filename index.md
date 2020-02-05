@@ -5,21 +5,18 @@ layout: home
 </section>
 
 <section id="gnd-institutional-activities">
-<div class="gnd-institutional-retailer">
-  <div class="gnd-institutional-title">
-    <h2>Varejista</h2><i class="material-icons">store</i> 
-  </div>
-  <div class="gnd-institutional-advantages">
-    <ul class="gnd-institutional-advantages-list">
-      <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores</li>
-    </ul>
-  </div>
-  <div class="gnd-institutional-advantages-links">
-    <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero comprar</a>
-  </div>
-  <div class="gnd-institutional-learn-more">
-    <a href="#">saiba mais...</a>
-  </div>
+  <div class="gnd-institutional-retailer">
+    <div class="gnd-institutional-title">
+      <h2>Varejista</h2><i class="material-icons">store</i>
+    </div>
+    <div class="gnd-institutional-advantages">
+      <ul class="gnd-institutional-advantages-list">
+        <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores com <strong>Frete Grátis</strong></li>
+      </ul>
+    </div>
+    <div class="gnd-institutional-advantages-links">
+      <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
+    </div>
   </div>
   <div class="gnd-institutional-supplier">
     <div class="gnd-institutional-title">
@@ -31,10 +28,7 @@ layout: home
       </ul>
     </div>
     <div class="gnd-institutional-advantages-links">
-      <a id="gnd-signInBtn" class="gnd-sign-in-link" href="#">Quero vender</a>
-    </div>
-    <div class="gnd-institutional-learn-more">
-      <a href="#">saiba mais...</a>
+      <a class="gnd-sign-in-link" href="/cadastro-fornecedor">Quero vender</a>
     </div>
   </div>
 </section>
@@ -66,7 +60,7 @@ layout: home
           <h3>Melhores prazos</h3>
         </div>
         <div class="gnd-inspiration-item-text">
-          <p>Tenha até 60 dias de prazo para pagamento e parcelamento em até duas vezes.</p>
+          <p>Tenha até 60 dias de prazo para pagamento e escolha seu parcelamento.</p>
         </div>
       </div>
     </div>
@@ -112,4 +106,3 @@ layout: home
     {% include carousel.html  height="20" unit="%" duration="7" %}
   </div>
 </section>
-

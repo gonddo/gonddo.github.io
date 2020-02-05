@@ -1,0 +1,172 @@
+@import 'default_styles';
+
+@media (max-width:768px) {
+  #gnd-retailer-sign-in {
+    min-height: 100vh;
+  }
+
+  .gnd-retailer-sign-in-header {
+    margin: 0 0 2rem;
+
+    ul {
+      justify-content: center;
+    }
+  }
+  .gnd-retailer-sign-in-logo {
+    margin: 1rem 0;
+    width: 12rem;
+  }
+
+  .gnd-retailer-sign-in-title {
+    background-color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    max-width: 42rem;
+    min-width: 20rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width:769px) {
+  #gnd-retailer-sign-in {
+    padding: 2rem 2rem 0 2rem;
+    background-color: $gonddo-grey;
+    min-height: 100vh;
+  }
+
+  .gnd-retailer-sign-in-header {
+    margin: 0 0 6rem;
+
+    ul {
+      justify-content: space-between;
+    }
+  }
+
+  .gnd-retailer-sign-in-logo {
+    margin: 1rem 0 0 4rem;
+    width: 12rem;
+  }
+
+  .gnd-retailer-sign-in-title {
+    background-color: #FFF;
+    font-size: 3rem;
+    max-width: 42rem;
+    min-width: 24rem;
+    margin: 0 0 4rem 4rem;
+  }
+}
+
+.gnd-retailer-sign-in-portrait {
+  background-color: #fff;
+  background-image: url('/assets/img/retailer_sign_in_image_1024.png');
+  background-repeat: no-repeat;
+  background-position-y: 24rem;
+}
+
+.gnd-retailer-sign-in-header {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.gnd-retailer-link-to-retailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  a {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $gonddo-sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: $gonddo-green;
+
+    &:hover {
+      color: $gonddo-blue;
+    }
+  }
+}
+
+.gnd-retailer-sign-in-form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 20rem;
+}
+
+.gnd-retailer-sign-in-title {
+  background-color: #FFF;
+  display: flex;
+  align-self: flex-start;
+
+  h1 {
+    font-family: $gonddo-sans-serif;
+  }
+
+  strong {
+    background-color: $gonddo-blue;
+    color: #FFF;
+    font-family: $gonddo-sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.gnd-retailer-form {
+  border-top: solid 5px $gonddo-light-green;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  background-color: $gonddo-lightest-grey;
+  width: 20rem;
+
+  h1 {
+    max-width: 24rem;
+    font-family: $gonddo-sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.gnd-retailer-sign-in-field {
+  height: 2.4rem;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+}
+
+.gnd-retailer-sign-in-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: $gonddo-brown;
+  font-family: $gonddo-sans-serif;
+  border: solid 1px gray;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.gnd-retailer-sign-in-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#gnd-retailer-benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  background-color: green;
+  height: 30rem;
+}

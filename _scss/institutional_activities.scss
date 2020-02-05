@@ -8,6 +8,13 @@
   }
 
   .gnd-institutional-advantages-list {
+    strong {
+      background-color: #FFF;
+      font-family: $gonddo-sans-serif;
+      color: $gonddo-green;
+      padding: 0 1rem;
+      font-weight: 600;
+    }
     li {
       font-size: 1.6rem;
       max-width: 16rem;
@@ -48,6 +55,13 @@
   }
 
   .gnd-institutional-advantages-list {
+    strong {
+      background-color: #FFF;
+      font-family: $gonddo-sans-serif;
+      color: $gonddo-green;
+      padding: 0 1rem;
+      font-weight: 600;
+    }
     li {
       font-size: 2rem;
       max-width: 30rem;
@@ -79,8 +93,6 @@
     }
   }
 }
-
-
 
 
 #gnd-institutional-activities {
@@ -116,8 +128,16 @@
 }
 
 .gnd-institutional-advantages-list {
+  strong {
+    background-color: #FFF;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-green;
+    padding: 0 1rem;
+    font-weight: 600;
+  }
   li {
     text-align: center;
+    font-family: $gonddo-sans-serif;
   }
 }
 
@@ -141,9 +161,8 @@
 }
 
 .gnd-institutional-learn-more {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  position: absolute;
+  bottom: 0;
   margin-bottom: 2rem;
   font-style: italic;
 

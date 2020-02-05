@@ -1,0 +1,83 @@
+@import 'default_styles';
+
+@media (max-width:768px) {
+  .gnd-retailer-inspiration-container {
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width:769px) {
+  .gnd-retailer-inspiration-container {
+    margin: 0;
+  }
+}
+
+#gnd-retailer-inspiration {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #FFF;
+  padding-top: 2rem;
+
+  .gnd-retailer-inspiration-item:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 0;
+    min-height: 8rem;
+    flex-grow: 1;
+  }
+
+  .gnd-retailer-inspiration-item:nth-child(even) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 0;
+    min-height: 8rem;
+    flex-grow: 1;
+  }
+}
+
+.gnd-retailer-inspiration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 0;
+}
+
+.gnd-retailer-inspiration-number {
+  font-size: 4rem;
+  span {
+    font-family: $gonddo-serif;
+    color: $gonddo-dark-grey;
+  }
+}
+
+.gnd-retailer-inspiration-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 14rem;
+  padding: 0 2rem;
+
+
+  i {
+    color: $gonddo-green;
+    font-size: 4rem;
+  }
+}
+
+.gnd-retailer-inspiration-item-title {
+  max-width: 20rem;
+  margin: 0;
+
+  h3 {
+    font-family: $gonddo-sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $gonddo-dark-grey;
+  }
+}
