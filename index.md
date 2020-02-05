@@ -11,7 +11,7 @@ layout: home
     </div>
     <div class="gnd-institutional-advantages">
       <ul class="gnd-institutional-advantages-list">
-        <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores</li>
+        <li>Encontre produtos naturais e compre no atacado dos melhores fornecedores com <strong>Frete Grátis</strong></li>
       </ul>
     </div>
     <div class="gnd-institutional-advantages-links">
@@ -60,7 +60,7 @@ layout: home
           <h3>Melhores prazos</h3>
         </div>
         <div class="gnd-inspiration-item-text">
-          <p>Tenha até 60 dias de prazo para pagamento e parcelamento em até duas vezes.</p>
+          <p>Tenha até 60 dias de prazo para pagamento e escolha seu parcelamento.</p>
         </div>
       </div>
     </div>

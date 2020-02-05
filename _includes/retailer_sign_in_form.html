@@ -2,20 +2,14 @@
   <h1>Cadastre-se e aumente suas vendas</h1>
   <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
   <input class="gnd-retailer-sign-in-field"
-    id="brand-name" type="text" name="brand"
-    placeholder="Sua marca" required
-    oninvalid="this.setCustomValidity('Precisamos saber o nome da sua marca :)')"
-    oninput="setCustomValidity('')"
-    title="Nome da sua Marca">
-  <input class="gnd-retailer-sign-in-field"
     id="customer-name" type="text" name="name"
-    placeholder="Informe seu nome" required
+    placeholder="Seu nome" required
     oninvalid="this.setCustomValidity('Por favor insira o seu nome completo')"
     oninput="setCustomValidity('')"
     title="Nome Completo">
   <input class="gnd-retailer-sign-in-field"
     id="customer-email" type="email" name="email"
-    placeholder="Informe seu email" required
+    placeholder="Seu email" required
     oninvalid="this.setCustomValidity('Por favor insira o seu email')"
     oninput="setCustomValidity('')"
     title="Email">
@@ -26,7 +20,7 @@
     oninput="setCustomValidity('')"
     title="Cidade em que atua">
 
-  <select class="gnd-select-input" required onchange="ShowRelatedFields.toggleFields(this)" name="store_type">
+  <select class="gnd-select-input" required onchange="ShowRelatedFields.toggleFields(this)" name="store_category">
     <option value="" disabled selected>Tipo de loja:</option>
     <option value="1">Loja Física</option>
     <option value="2">Loja Online</option>

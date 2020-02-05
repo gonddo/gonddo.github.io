@@ -8,20 +8,21 @@
     oninput="setCustomValidity('')"
     title="Nome da sua Marca">
   <input class="gnd-supplier-sign-in-field"
-    id="brand-site" type="text" name="brand-site"
+    id="brand-site" type="text" name="brand_website"
     placeholder="Site da sua marca" required
-    oninvalid="this.setCustomValidity('Precisamos saber o site caso você possua um :)')"
+    pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
+    oninvalid="this.setCustomValidity('Precisamos saber o seu site :)')"
     oninput="setCustomValidity('')"
     title="Site da Marca">
   <input class="gnd-supplier-sign-in-field"
     id="customer-name" type="text" name="name"
-    placeholder="Informe seu nome" required
+    placeholder="Seu nome" required
     oninvalid="this.setCustomValidity('Por favor insira o seu nome completo')"
     oninput="setCustomValidity('')"
     title="Nome Completo">
   <input class="gnd-supplier-sign-in-field"
     id="customer-email" type="email" name="email"
-    placeholder="Informe seu email" required
+    placeholder="Seu email" required
     oninvalid="this.setCustomValidity('Por favor insira o seu email')"
     oninput="setCustomValidity('')"
     title="Email">
@@ -39,15 +40,15 @@
     <option value="3">Outros</option>
   </select>
 
-  <select class="gnd-select-input" name="associated_stores_count">
+  <select class="gnd-select-input" name="range_of_associated_stores">
     <option value="" disabled selected>Número de lojas parceiras:</option>
     <option value="1">de 1 a 10</option>
     <option value="2">de 11 a 20</option>
-    <option value="3">de 21 a 10</option>
-    <option value="4">de 31 a 10</option>
-    <option value="5">de 41 a 10</option>
+    <option value="3">de 21 a 30</option>
+    <option value="4">de 31 a 40</option>
+    <option value="5">de 41 a 50</option>
     <option value="6">de 51 a 100</option>
-    <option value="7">de 101 a 20</option>
+    <option value="7">de 101 a 200</option>
     <option value="8">mais de 200</option>
   </select>
 
