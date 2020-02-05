@@ -1,0 +1,215 @@
+@import 'default_styles';
+
+@media (max-width:480px) {
+  #gnd-institutional-activities {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .gnd-institutional-advantages-list {
+    strong {
+      background-color: #FFF;
+      font-family: $gonddo-sans-serif;
+      color: $gonddo-green;
+      padding: 0 1rem;
+      font-weight: 600;
+    }
+    li {
+      font-size: 1.6rem;
+      max-width: 16rem;
+      margin: 1rem;
+    }
+  }
+
+  .gnd-institutional-advantages-links {
+    padding: 0 1rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-retailer {
+    height: 32rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-supplier {
+    height: 32rem;
+    min-width: 16rem;
+  }
+
+  .gnd-institutional-learn-more {
+    min-width: 16rem;
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (min-width:481px) {
+  #gnd-institutional-activities {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .gnd-institutional-advantages-list {
+    strong {
+      background-color: #FFF;
+      font-family: $gonddo-sans-serif;
+      color: $gonddo-green;
+      padding: 0 1rem;
+      font-weight: 600;
+    }
+    li {
+      font-size: 2rem;
+      max-width: 30rem;
+      margin: 2rem;
+    }
+  }
+
+  .gnd-institutional-advantages-links {
+    padding: 0 2rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-retailer {
+    height: 34rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-supplier {
+    height: 34rem;
+    min-width: 30rem;
+  }
+
+  .gnd-institutional-learn-more {
+    min-width: 30rem;
+    margin-bottom: 2rem;
+
+    a {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+#gnd-institutional-activities {
+  display: flex;
+  flex-basis: 0;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-family: $gonddo-sans-serif;
+    margin: 3rem 0;
+  }
+}
+
+.gnd-institutional-retailer {
+  display: flex;
+  flex-grow: 1;
+  background-color: $gonddo-green;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gnd-institutional-supplier {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $gonddo-brown;
+  color: #FFF;
+}
+
+.gnd-institutional-advantages-list {
+  strong {
+    background-color: #FFF;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-green;
+    padding: 0 1rem;
+    font-weight: 600;
+  }
+  li {
+    text-align: center;
+    font-family: $gonddo-sans-serif;
+  }
+}
+
+.gnd-institutional-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+}
+
+.gnd-institutional-advantages-links {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnd-institutional-learn-more {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+  font-style: italic;
+
+  a {
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.3s;
+  }
+
+  a:hover{
+    transition: 0.3s;
+    color: red;
+  }
+}
+
+.gnd-institutional-advantages-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a:visited {
+    text-decoration: none;
+    color: $gonddo-dark-grey;
+  }
+
+  a {
+    font-family: $gonddo-sans-serif;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: $gonddo-dark-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    height: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  }
+
+  a:hover {
+    text-decoration: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: $gonddo-green;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+}
+

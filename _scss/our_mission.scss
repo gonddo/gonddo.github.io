@@ -1,0 +1,150 @@
+@import 'default_styles';
+
+@media (max-width: 768px) {
+  .gnd-our-mission-image {
+    background-image: url('/assets/img/mission_image_480_2.png');
+  }
+
+  .gnd-our-mission-content {
+    min-width: 20rem;
+  }
+
+  .gnd-our-mission-content-text {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  .gnd-our-mission-call {
+    h3 {
+      font-size: 2rem;
+    }
+
+    strong {
+      font-size: 2rem;
+    }
+  }
+
+  .gnd-our-mission-image {
+    min-width: 20rem;
+    height: 42rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .gnd-our-mission-image {
+    background-image: url('/assets/img/mission_image_768.png');
+  }
+
+  .gnd-our-mission-content {
+    min-width: 30rem;
+  }
+
+  .gnd-our-mission-content-text {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin: 1rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  .gnd-our-mission-call {
+    h3 {
+      font-size: 3rem;
+    }
+
+    strong {
+      font-size: 3rem;
+    }
+  }
+
+  .gnd-our-mission-image {
+    min-width: 30rem;
+    height: 40rem;
+  }
+}
+
+.gnd-our-mission-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 0;
+  margin: 3rem 0;
+  background-color: $gonddo-green;
+}
+
+.gnd-our-mission-image {
+  display: flex;
+  flex-grow: 1;
+  background-size: auto 40rem;
+
+}
+
+.gnd-our-mission-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 1;
+  height: 40rem;
+  background-color: $gonddo-light-green;
+}
+
+.gnd-our-mission-content-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 40rem;
+  padding: 2rem 0 0 1rem;
+
+  h2 {
+    margin: 1rem 1rem 3rem;
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-brown;
+  }
+
+  p {
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-brown;
+  }
+
+  strong {
+    font-family: $gonddo-sans-serif;
+    background-color: #FFF;
+  }
+}
+
+.gnd-our-mission-call {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 2rem;
+
+  h3 {
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-dark-grey;
+    padding: 1.5rem;
+    background-color: #FFF;
+  }
+
+  strong {
+    font-weight: 600;
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-green;
+  }
+}
+
+

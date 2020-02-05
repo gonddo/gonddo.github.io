@@ -1,0 +1,42 @@
+@import 'default_styles';
+
+@media (max-width: 768px) {
+  #gnd-cover-image-section {
+    background-image: url('/assets/img/cover_image_320.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #gnd-cover-image-section {
+    background-image: url('/assets/img/cover_image_768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1025px) {
+  #gnd-cover-image-section {
+    background-image: url('/assets/img/cover_image_1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+#gnd-cover-image-section {
+  width: 100%;
+  height: 20rem;
+  background-color: $gonddo-green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  span {
+    margin: 1rem;
+    max-width: 20rem;
+    font-size: 2rem;
+    color: $gonddo-brown;
+  }
+}
+

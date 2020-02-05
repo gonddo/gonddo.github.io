@@ -1,0 +1,47 @@
+<form class="gnd-retailer-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
+  <h1>Cadastre-se de graça</h1>
+  <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
+  <input class="gnd-retailer-sign-in-field"
+    id="customer-name" type="text" name="name"
+    placeholder="Seu nome" required
+    oninvalid="this.setCustomValidity('Por favor insira o seu nome completo')"
+    oninput="this.setCustomValidity('')"
+    title="Nome Completo">
+  <input class="gnd-retailer-sign-in-field"
+    id="customer-email" type="email" name="email"
+    placeholder="Seu email" required
+    oninvalid="this.setCustomValidity('Por favor insira o seu email')"
+    oninput="this.setCustomValidity('')"
+    title="Email">
+  <input class="gnd-retailer-sign-in-field"
+    id="city" type="text" name="city"
+    placeholder="Cidade" required
+    oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
+    oninput="this.setCustomValidity('')"
+    title="Cidade em que atua">
+
+  <select class="gnd-select-input" required onchange="ShowRelatedFields.toggleFields(this)" name="store_category">
+    <option value="" disabled selected>Tipo de loja:</option>
+    <option value="physical_store">Loja Física</option>
+    <option value="online_store">Loja Online</option>
+    <option value="physical_and_online_store">Loja Física + Loja Online</option>
+    <option value="reseller">Sou revendedor</option>
+  </select>
+
+  <input class="gnd-retailer-sign-in-field gnd-retailer-conditional-form-field"
+    id="customer-store" type="text" name="store_name"
+    placeholder="Qual o nome da sua loja?"
+    oninvalid="this.setCustomValidity('Favor informar o nome da sua loja')"
+    oninput="this.setCustomValidity('')"
+    title="Nome da sua loja">
+
+  <input class="gnd-retailer-sign-in-field gnd-retailer-conditional-form-field"
+    id="customer-website" type="text" name="store_website"
+    placeholder="Qual o site da sua loja?"
+    oninvalid="this.setCustomValidity('Favor informar o site da sua loja')"
+    oninput="this.setCustomValidity('')"
+    pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
+    title="Website da loja">
+
+  <input class="gnd-retailer-sign-in-submit-btn" type="submit" value="Cadastrar">
+</form>

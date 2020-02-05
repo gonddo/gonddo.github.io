@@ -1,36 +1,15 @@
 @import 'default_styles';
 
-.gnd-background-icon-love:before {
-  position: relative;
-  font-family: "Material Icons";
-  content: "\e87e";
-  left: 3rem;
-  bottom: 2rem;
-  font-size: 6rem;
-  width: 0;
-  color: rgba(0, 0, 0, 0.1);
-}
-
-.gnd-background-icon-cart:before {
-  position: relative;
-  font-family: "Material Icons";
-  content: "\e8cc";
-  left: 3rem;
-  bottom: 2rem;
-  font-size: 6rem;
-  width: 0;
-  color: rgba(0, 0, 0, 0.1);
-}
-
-.gnd-background-icon-time:before {
-  position: relative;
-  font-family: "Material Icons";
-  content: "\e192";
-  left: 3rem;
-  bottom: 2rem;
-  font-size: 6rem;
-  width: 0;
-  color: rgba(0, 0, 0, 0.1);
+.gnd-inspiration-title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: $gonddo-sans-serif;
+  color: $gonddo-dark-grey;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -39,14 +18,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #FFF;
 
     .gnd-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-basis: 0;
-      min-height: 15rem;
+      min-height: 12rem;
       flex-grow: 1;
+      margin-bottom: 1rem;
     }
 
     .gnd-inspiration-item:nth-child(even) {
@@ -54,41 +35,58 @@
       justify-content: center;
       align-items: center;
       flex-basis: 0;
-      min-height: 15rem;
+      min-height: 12rem;
       flex-grow: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .gnd-inspiration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+  }
+
+  .gnd-inspiration-number {
+    font-size: 2.5rem;
+    span {
+      font-family: $gonddo-serif;
+      color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-content {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     min-width: 16rem;
+    min-height: 10rem;
     max-width: 20rem;
-    height: 10rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif;
-      font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
       font-weight: 600;
-      color: #212121;
+      color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-text {
     margin: 0;
-    text-align: justify;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
-      color: #212121;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.2rem;
+      color: $gonddo-dark-grey;
     }
   }
 }
@@ -98,6 +96,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #FFF;
 
     .gnd-inspiration-item:nth-child(odd) {
       display: flex;
@@ -118,36 +117,52 @@
     }
   }
 
+  .gnd-inspiration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+  }
+
+  .gnd-inspiration-number {
+    font-size: 4rem;
+    span {
+      font-family: $gonddo-serif;
+      color: $gonddo-dark-grey;
+    }
+  }
+
   .gnd-inspiration-item-content {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     min-width: 20rem;
+    min-height: 10rem;
     max-width: 20rem;
-    height: 10rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif;
-      font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.6rem;
       font-weight: 600;
-      color: #212121;
+      color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-text {
-    text-align: justify;
     margin: 0;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
-      color: #212121;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
+      color: $gonddo-dark-grey;
     }
   }
 }
@@ -157,13 +172,14 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #FFF;
 
     .gnd-inspiration-item:nth-child(odd) {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-basis: 0;
-      min-height: 15rem;
+      min-height: 8rem;
       flex-grow: 1;
     }
 
@@ -172,45 +188,56 @@
       justify-content: center;
       align-items: center;
       flex-basis: 0;
-      min-height: 15rem;
+      min-height: 8rem;
       flex-grow: 1;
-      .gnd-inspiration-item-content {
-        border-left: solid 1px rgba(0, 0, 0, 0.1);
-        border-right: solid 1px rgba(0, 0, 0, 0.1);
-      }
+    }
+  }
+
+  .gnd-inspiration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+  }
+
+  .gnd-inspiration-number {
+    font-size: 4rem;
+    span {
+      font-family: $gonddo-serif;
+      color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     min-width: 20rem;
+    min-height: 10rem;
     max-width: 20rem;
-    height: 10rem;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 
   .gnd-inspiration-item-title {
     max-width: 20rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
     h3 {
       text-align: center;
-      font-family: $gonddo-serif;
-      font-size: 1.2rem;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.6rem;
       font-weight: 600;
       color: $gonddo-dark-grey;
     }
   }
 
   .gnd-inspiration-item-text {
-    text-align: justify;
     margin: 0;
     p {
-      font-family: $gonddo-serif;
-      font-size: 1rem;
-      color: #212121;
+      font-family: $gonddo-sans-serif;
+      font-size: 1.4rem;
+      color: $gonddo-dark-grey;
     }
   }
 }

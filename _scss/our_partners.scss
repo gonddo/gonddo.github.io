@@ -1,0 +1,40 @@
+@import 'default_styles';
+
+@media (max-width:480px) {
+  .gnd-our-partners-title {
+    h3 {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (min-width:480px) {
+  .gnd-our-partners-title {
+    h3 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}
+
+#gnd-our-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  background-color: #FFF;
+}
+
+.gnd-carousel-container {
+  width: 100%;
+  max-height: 16rem;
+}
+
+.gnd-our-partners-title {
+  h3 {
+    font-family: $gonddo-sans-serif;
+    color: $gonddo-brown;
+  }
+}
