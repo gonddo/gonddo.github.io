@@ -31,6 +31,7 @@ ShowRelatedFields = function(){
   }
 
   function hideField(fieldToHide) {
+    document.getElementById(fieldToHide).value = "";
     document.getElementById(fieldToHide).classList.add("gnd-retailer-conditional-form-field");
     document.getElementById(fieldToHide).required = false;
   }
