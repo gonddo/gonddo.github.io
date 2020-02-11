@@ -3,7 +3,7 @@
 @media (max-width:480px) {
   #gnd-institutional-activities {
     h2 {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -16,7 +16,7 @@
       font-weight: 600;
     }
     li {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       max-width: 16rem;
       margin: 1rem;
     }
@@ -28,12 +28,12 @@
   }
 
   .gnd-institutional-retailer {
-    height: 32rem;
+    height: 28rem;
     min-width: 16rem;
   }
 
   .gnd-institutional-supplier {
-    height: 32rem;
+    height: 28rem;
     min-width: 16rem;
   }
 
@@ -50,7 +50,7 @@
 @media (min-width:481px) {
   #gnd-institutional-activities {
     h2 {
-      font-size: 3rem;
+      font-size: 2.4rem;
     }
   }
 
@@ -63,9 +63,9 @@
       font-weight: 600;
     }
     li {
-      font-size: 2rem;
+      font-size: 1.6rem;
       max-width: 30rem;
-      margin: 2rem;
+      margin: 1.6rem;
     }
   }
 
@@ -75,12 +75,12 @@
   }
 
   .gnd-institutional-retailer {
-    height: 34rem;
+    height: 28rem;
     min-width: 30rem;
   }
 
   .gnd-institutional-supplier {
-    height: 34rem;
+    height: 28rem;
     min-width: 30rem;
   }
 
@@ -148,7 +148,7 @@
   align-items: center;
 
   i {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin: 1rem;
   }
 }
