@@ -42,3 +42,10 @@ ShowRelatedFields = function(){
     toggleFields: toggleFields
   }
 }();
+
+new Vue({
+  el: '#gnd-retailer-form',
+  data: {
+    statesData: statesAndCitiesData
+  }
+})

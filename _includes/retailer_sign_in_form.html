@@ -1,5 +1,5 @@
-<form class="gnd-retailer-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
-  <h1>Cadastre-se de graça</h1>
+<form id="gnd-retailer-form" class="gnd-retailer-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
+  <h1>Cadastre-se de graça</msg></h1>
   <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
   <input class="gnd-retailer-sign-in-field"
     id="customer-name" type="text" name="name"
@@ -13,12 +13,10 @@
     oninvalid="this.setCustomValidity('Por favor insira o seu email')"
     oninput="this.setCustomValidity('')"
     title="Email">
-  <input class="gnd-retailer-sign-in-field"
-    id="city" type="text" name="city"
-    placeholder="Cidade" required
-    oninvalid="this.setCustomValidity('Em qual cidade você atua?')"
-    oninput="this.setCustomValidity('')"
-    title="Cidade em que atua">
+
+  <selectLocation
+    v-bind:states="statesData">
+  </selectLocation>
 
   <select class="gnd-select-input" required onchange="ShowRelatedFields.toggleFields(this)" name="store_category">
     <option value="" disabled selected>Tipo de loja:</option>
