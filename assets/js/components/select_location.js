@@ -6,7 +6,7 @@ Vue.component('selectlocation', {
         '<option v-for="state in states" :value="state.code">{{ state.name }}</option>' +
       '</select>' +
       '<select class="gnd-select-input" required name="city">' +
-        '<option varlue="" disabled selected>Cidade:</option>' +
+        '<option value="" disabled selected>Cidade:</option>' +
         '<option v-for="city in cities()" :value="city">{{ city }}</option>' +
       '</select>' +
     '</div>',
