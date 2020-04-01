@@ -36,9 +36,9 @@
   <input class="gnd-retailer-sign-in-field gnd-retailer-conditional-form-field"
     id="customer-website" type="text" name="website"
     placeholder="Qual o site da sua loja?"
-    oninvalid="this.setCustomValidity('Favor informar o site da sua loja')"
+    oninvalid="this.setCustomValidity('O site da loja é inválido')"
     oninput="this.setCustomValidity('')"
-    pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
+    pattern="[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?"
     title="Website da loja">
 
   <input class="gnd-retailer-sign-in-submit-btn" type="submit" value="Cadastrar">
