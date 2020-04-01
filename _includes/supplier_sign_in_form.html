@@ -10,8 +10,8 @@
   <input class="gnd-supplier-sign-in-field"
     id="brand-site" type="text" name="website"
     placeholder="Site da sua marca" required
-    pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
-    oninvalid="this.setCustomValidity('Precisamos saber o seu site :)')"
+    pattern="[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?"
+    oninvalid="this.setCustomValidity('O site é inválido')"
     oninput="this.setCustomValidity('')"
     title="Site da Marca">
   <input class="gnd-supplier-sign-in-field"
