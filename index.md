@@ -16,6 +16,7 @@ layout: home
     </div>
     <div class="gnd-institutional-advantages-links">
       <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
+      <span><a href="#gnd-institutional-video">teste</a></span>
     </div>
   </div>
   <div class="gnd-institutional-supplier">
