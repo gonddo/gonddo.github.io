@@ -82,6 +82,14 @@ layout: home
   </div>
 </section>
 
+<section id="gnd-institutional-video">
+  <div class="gnd-institutional-video-container">
+    <div class="gnd-institutional-video">
+      <iframe src="https://www.youtube-nocookie.com/embed/pWnqCJlBBLo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
 <section id="gnd-our-mission">
   <div class="gnd-our-mission-container">
     <div class="gnd-our-mission-content">
