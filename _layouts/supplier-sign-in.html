@@ -12,6 +12,17 @@
         <div class="gnd-supplier-sign-in-info">
           {% include supplier_sign_in_benefits.html %}
 
+          <section id="gnd-institutional-video">
+            <div class="gnd-institutional-video-container">
+              <div class="gnd-institutional-video-title">
+                <h2>Aumente suas vendas no atacado com a Gonddo!</h2>
+              </div>
+              <div id="gnd-institutional-supplier-video-container">
+                <iframe id="gnd-institutional-supplier-video" src="https://www.youtube.com/embed/42L6SEHKt1s?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </section>
+
           <section id="gnd-our-partners">
             <div class="gnd-our-partners-title">
               <h3>Quem já está na Gonddo</h3>
@@ -28,6 +39,13 @@
     <script type="text/javascript" src="/assets/js/components/select_location.js"></script>
     <script type="text/javascript" src="/assets/js/states_and_cities_data.js"></script>
     <script type="text/javascript" src="/assets/js/supplier_form.js"></script>
+    <script type="text/javascript">
+      function scrollAndPlayVideo() {
+        var videoContainer = document.getElementById('gnd-institutional-supplier-video-container');
+        videoContainer.scrollIntoView({ behavior: 'smooth', block: 'center'});
+        document.getElementById("gnd-institutional-supplier-video").src += "&autoplay=1"
+      }
+    </script>
   </body>
 </html>
 
