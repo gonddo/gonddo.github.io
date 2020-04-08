@@ -1,5 +1,19 @@
 @import 'default_styles';
 
+.gnd-institutional-supplier-learn-more {
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+
+  &:hover {
+    transition: 0.3s;
+    color: $gonddo-green;
+  }
+}
+
 @media (max-width:768px) {
   #gnd-supplier-sign-in {
     min-height: 100vh;
@@ -18,6 +32,8 @@
   }
 
   .gnd-supplier-sign-in-title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 1.6rem;
     max-width: 32rem;
@@ -51,6 +67,8 @@
   }
 
   .gnd-supplier-sign-in-title {
+    display: flex;
+    flex-direction: column;
     font-size: 2.4rem;
     max-width: 32rem;
     min-width: 24rem;
@@ -110,6 +128,7 @@
 .gnd-supplier-sign-in-title {
   display: flex;
   align-self: flex-start;
+  flex-direction: column;
 
   h1 {
     font-family: $gonddo-sans-serif;

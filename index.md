@@ -16,7 +16,9 @@ layout: home
     </div>
     <div class="gnd-institutional-advantages-links">
       <a class="gnd-sign-in-link" href="/cadastro-varejista">Quero comprar</a>
-      <span><a href="#gnd-institutional-video">teste</a></span>
+    </div>
+    <div class="gnd-institutional-learn-more">
+      <span onclick="scrollAndPlayVideo()">Saiba mais...</span>
     </div>
   </div>
   <div class="gnd-institutional-supplier">
@@ -86,7 +88,7 @@ layout: home
 <section id="gnd-institutional-video">
   <div class="gnd-institutional-video-container">
     <div class="gnd-institutional-video">
-      <iframe src="https://www.youtube-nocookie.com/embed/pWnqCJlBBLo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe id="gnd-retailer-video" src="https://www.youtube-nocookie.com/embed/pWnqCJlBBLo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -115,3 +117,11 @@ layout: home
     {% include carousel.html  height="20" unit="%" duration="7" %}
   </div>
 </section>
+
+<script>
+  function scrollAndPlayVideo() {
+    var videoContainer = document.getElementById('gnd-institutional-video');
+    videoContainer.scrollIntoView({ behavior: 'smooth', block: 'center'});
+    document.getElementById("gnd-retailer-video").src += "&autoplay=1"
+  }
+</script>

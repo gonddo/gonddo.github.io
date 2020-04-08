@@ -1,4 +1,14 @@
 @import 'default_styles';
+.gnd-institutional-learn-more {
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: 0.3s;
+
+  &:hover {
+    transition: 0.3s;
+    color: $gonddo-brown;
+  }
+}
 
 @media (max-width:480px) {
   #gnd-institutional-activities {
@@ -35,15 +45,6 @@
   .gnd-institutional-supplier {
     height: 28rem;
     min-width: 16rem;
-  }
-
-  .gnd-institutional-learn-more {
-    min-width: 16rem;
-    margin-bottom: 1rem;
-
-    a {
-      font-size: 1.2rem;
-    }
   }
 }
 
@@ -82,15 +83,6 @@
   .gnd-institutional-supplier {
     height: 28rem;
     min-width: 30rem;
-  }
-
-  .gnd-institutional-learn-more {
-    min-width: 30rem;
-    margin-bottom: 2rem;
-
-    a {
-      font-size: 1.4rem;
-    }
   }
 }
 
@@ -158,24 +150,6 @@
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
-}
-
-.gnd-institutional-learn-more {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 2rem;
-  font-style: italic;
-
-  a {
-    text-decoration: none;
-    color: #FFF;
-    transition: 0.3s;
-  }
-
-  a:hover{
-    transition: 0.3s;
-    color: red;
-  }
 }
 
 .gnd-institutional-advantages-links {
