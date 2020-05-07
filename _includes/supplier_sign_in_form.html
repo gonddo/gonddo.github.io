@@ -58,5 +58,16 @@
     <option value="200">mais de 200</option>
   </select>
 
+  <div class="gnd-terms-of-use">
+    <input
+      type="checkbox"
+      name="terms-of-use"
+      oninvalid="this.setCustomValidity('Por favor leia os termos de uso')"
+      oninput="this.setCustomValidity('')"
+      required>
+    <label for="terms-of-use">Eu li e concordo com os <a href="/termos-de-servico-fornecedor/">termos de uso para fornecedores</a></label>
+  </div>
+
+
   <input class="gnd-supplier-sign-in-submit-btn" type="submit" value="Cadastrar">
 </form>
