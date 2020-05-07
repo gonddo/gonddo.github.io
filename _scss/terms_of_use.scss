@@ -1,0 +1,17 @@
+@import 'default_styles';
+
+.gnd-terms-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  background-color: $gonddo-lightest-grey;
+  flex-direction: column;
+
+  h1 {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-family: $gonddo-sans-serif;
+  }
+}

@@ -4,24 +4,15 @@ layout: terms-of-use
 permalink: /termos-de-servico-varejista/
 ---
 
+<div class="gnd-terms-header">
+  <i class="material-icons-outlined">receipt</i>
+  <h1>Varejistas - Termos de uso</h1>
+</div>
+
 <STYLE type="text/css">
 body {margin-top: 0px;margin-left: 0px;}
 
-#page_1 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_2 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_3 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_4 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_5 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_5 #id5_1 {border:none;margin: 0 auto;padding: 0px;border:none;width: 699px;overflow: hidden;}
-#page_5 #id5_2 {border:none;margin: 0 auto;padding: 0px;border:none;width: 699px;overflow: hidden;}
-#page_6 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 602px;}
-#page_7 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_8 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 699px;}
-#page_8 #id8_1 {border:none;margin: 0 auto;padding: 0px;border:none;width: 699px;overflow: hidden;}
-#page_8 #id8_2 {border:none;margin: 0 auto;padding: 0px;border:none;width: 699px;overflow: hidden;}
-#page_9 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 602px;}
-#page_10 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 602px;}
-#page_11 {position:relative; overflow: hidden;margin: 0 auto;padding: 0px;border: none;width: 600px;}
+#page_1 {position:relative; overflow: hidden;margin: 4rem auto;padding: 0px;border: none;width: 1024px;}
 
 .ft0{font: 22px 'Arial';color: #333333;line-height: 30px;}
 .ft1{font: bold 18px 'Arial';color: #333333;line-height: 21px;}
@@ -50,75 +41,75 @@ body {margin-top: 0px;margin-left: 0px;}
 .ft24{font: bold 15px 'Arial';color: #333333;line-height: 22px;}
 .ft25{font: bold 15px 'Arial';color: #333333;margin-left: 11px;line-height: 21px;}
 
-.p0{text-align: left;padding-right: 113px;margin-top: 0px;margin-bottom: 0px;}
+.p0{text-align: left;margin-top: 0px;margin-bottom: 0px;}
 .p1{text-align: left;margin-top: 7px;margin-bottom: 0px;}
-.p2{text-align: left;padding-right: 105px;margin-top: 19px;margin-bottom: 0px;}
-.p3{text-align: left;padding-right: 100px;margin-top: 28px;margin-bottom: 0px;}
-.p4{text-align: justify;padding-right: 117px;margin-top: 19px;margin-bottom: 0px;}
+.p2{text-align: left;margin-top: 19px;margin-bottom: 0px;}
+.p3{text-align: left;margin-top: 28px;margin-bottom: 0px;}
+.p4{text-align: justify;margin-top: 19px;margin-bottom: 0px;}
 .p5{text-align: left;margin-top: 33px;margin-bottom: 0px;}
-.p6{text-align: left;padding-right: 99px;margin-top: 50px;margin-bottom: 0px;}
-.p7{text-align: left;padding-right: 128px;margin-top: 20px;margin-bottom: 0px;}
-.p8{text-align: left;padding-right: 144px;margin-top: 0px;margin-bottom: 0px;}
+.p6{text-align: left;margin-top: 50px;margin-bottom: 0px;}
+.p7{text-align: left;margin-top: 20px;margin-bottom: 0px;}
+.p8{text-align: left;margin-top: 0px;margin-bottom: 0px;}
 .p9{text-align: left;margin-top: 46px;margin-bottom: 0px;}
-.p10{text-align: left;padding-right: 100px;margin-top: 19px;margin-bottom: 0px;}
+.p10{text-align: left;margin-top: 19px;margin-bottom: 0px;}
 .p11{text-align: left;margin-top: 10px;margin-bottom: 0px;}
-.p12{text-align: justify;padding-right: 130px;margin-top: 12px;margin-bottom: 0px;}
-.p13{text-align: left;padding-right: 97px;margin-top: 11px;margin-bottom: 0px;}
+.p12{text-align: justify;margin-top: 12px;margin-bottom: 0px;}
+.p13{text-align: left;margin-top: 11px;margin-bottom: 0px;}
 .p14{text-align: left;margin-top: 11px;margin-bottom: 0px;}
-.p15{text-align: left;padding-right: 122px;margin-top: 19px;margin-bottom: 0px;}
-.p16{text-align: left;padding-right: 97px;margin-top: 0px;margin-bottom: 0px;}
-.p17{text-align: left;padding-right: 125px;margin-top: 18px;margin-bottom: 0px;}
-.p18{text-align: left;padding-right: 102px;margin-top: 0px;margin-bottom: 0px;}
-.p19{text-align: justify;padding-right: 97px;margin-top: 19px;margin-bottom: 0px;}
-.p20{text-align: justify;padding-right: 97px;margin-top: 29px;margin-bottom: 0px;}
+.p15{text-align: left;margin-top: 19px;margin-bottom: 0px;}
+.p16{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p17{text-align: left;margin-top: 18px;margin-bottom: 0px;}
+.p18{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p19{text-align: justify;margin-top: 19px;margin-bottom: 0px;}
+.p20{text-align: justify;margin-top: 29px;margin-bottom: 0px;}
 .p21{text-align: left;margin-top: 18px;margin-bottom: 0px;}
-.p22{text-align: left;padding-right: 98px;margin-top: 17px;margin-bottom: 0px;}
-.p23{text-align: left;padding-left: 68px;padding-right: 133px;margin-top: 35px;margin-bottom: 0px;text-indent: -24px;}
-.p24{text-align: left;padding-left: 68px;padding-right: 122px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
-.p25{text-align: left;padding-left: 68px;padding-right: 108px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
-.p26{text-align: left;padding-left: 68px;padding-right: 126px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
-.p27{text-align: left;padding-left: 68px;padding-right: 117px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
-.p28{text-align: left;padding-left: 68px;padding-right: 116px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
-.p29{text-align: left;padding-left: 68px;padding-right: 100px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p22{text-align: left;margin-top: 17px;margin-bottom: 0px;}
+.p23{text-align: left;padding-left: 68px;margin-top: 35px;margin-bottom: 0px;text-indent: -24px;}
+.p24{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p25{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p26{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p27{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p28{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p29{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
 .p30{text-align: left;padding-left: 44px;margin-top: 0px;margin-bottom: 0px;}
-.p31{text-align: left;padding-left: 68px;padding-right: 111px;margin-top: 3px;margin-bottom: 0px;text-indent: -24px;}
-.p32{text-align: left;padding-right: 130px;margin-top: 38px;margin-bottom: 0px;}
+.p31{text-align: left;padding-left: 68px;margin-top: 3px;margin-bottom: 0px;text-indent: -24px;}
+.p32{text-align: left;margin-top: 38px;margin-bottom: 0px;}
 .p33{text-align: left;margin-top: 12px;margin-bottom: 0px;}
-.p34{text-align: left;padding-right: 103px;margin-top: 16px;margin-bottom: 0px;}
-.p35{text-align: left;padding-right: 149px;margin-top: 0px;margin-bottom: 0px;}
-.p36{text-align: left;padding-right: 120px;margin-top: 11px;margin-bottom: 0px;}
-.p37{text-align: left;padding-right: 98px;margin-top: 29px;margin-bottom: 0px;}
-.p38{text-align: left;padding-right: 98px;margin-top: 27px;margin-bottom: 0px;}
-.p39{text-align: left;padding-right: 159px;margin-top: 19px;margin-bottom: 0px;}
-.p40{text-align: left;padding-right: 99px;margin-top: 3px;margin-bottom: 0px;}
+.p34{text-align: left;margin-top: 16px;margin-bottom: 0px;}
+.p35{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p36{text-align: left;margin-top: 11px;margin-bottom: 0px;}
+.p37{text-align: left;margin-top: 29px;margin-bottom: 0px;}
+.p38{text-align: left;margin-top: 27px;margin-bottom: 0px;}
+.p39{text-align: left;margin-top: 19px;margin-bottom: 0px;}
+.p40{text-align: left;margin-top: 3px;margin-bottom: 0px;}
 .p41{text-align: left;margin-top: 0px;margin-bottom: 0px;}
-.p42{text-align: left;padding-right: 27px;margin-top: 14px;margin-bottom: 0px;}
-.p43{text-align: left;padding-right: 3px;margin-top: 15px;margin-bottom: 0px;}
-.p44{text-align: left;padding-right: 9px;margin-top: 21px;margin-bottom: 0px;}
+.p42{text-align: left;margin-top: 14px;margin-bottom: 0px;}
+.p43{text-align: left;margin-top: 15px;margin-bottom: 0px;}
+.p44{text-align: left;margin-top: 21px;margin-bottom: 0px;}
 .p45{text-align: left;margin-top: 19px;margin-bottom: 0px;}
-.p46{text-align: left;padding-right: 110px;margin-top: 17px;margin-bottom: 0px;}
+.p46{text-align: left;margin-top: 17px;margin-bottom: 0px;}
 .p47{text-align: left;margin-top: 17px;margin-bottom: 0px;}
-.p48{text-align: left;padding-left: 68px;padding-right: 97px;margin-top: 42px;margin-bottom: 0px;text-indent: -24px;}
-.p49{text-align: left;padding-left: 68px;padding-right: 101px;margin-top: 5px;margin-bottom: 0px;text-indent: -24px;}
-.p50{text-align: left;padding-left: 68px;padding-right: 98px;margin-top: 0px;margin-bottom: 0px;}
-.p51{text-align: left;padding-left: 68px;padding-right: 98px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p48{text-align: left;padding-left: 68px;margin-top: 42px;margin-bottom: 0px;text-indent: -24px;}
+.p49{text-align: left;padding-left: 68px;margin-top: 5px;margin-bottom: 0px;text-indent: -24px;}
+.p50{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;}
+.p51{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
 .p52{text-align: left;margin-top: 42px;margin-bottom: 0px;}
-.p53{text-align: left;padding-right: 117px;margin-top: 19px;margin-bottom: 0px;}
-.p54{text-align: justify;padding-right: 111px;margin-top: 32px;margin-bottom: 0px;}
-.p55{text-align: left;padding-right: 105px;margin-top: 11px;margin-bottom: 0px;}
-.p56{text-align: left;padding-right: 99px;margin-top: 10px;margin-bottom: 0px;}
-.p57{text-align: left;padding-right: 1px;margin-top: 15px;margin-bottom: 0px;}
-.p58{text-align: left;padding-right: 7px;margin-top: 7px;margin-bottom: 0px;}
-.p59{text-align: left;padding-right: 8px;margin-top: 6px;margin-bottom: 0px;}
-.p60{text-align: left;padding-right: 15px;margin-top: 0px;margin-bottom: 0px;}
+.p53{text-align: left;margin-top: 19px;margin-bottom: 0px;}
+.p54{text-align: justify;margin-top: 32px;margin-bottom: 0px;}
+.p55{text-align: left;margin-top: 11px;margin-bottom: 0px;}
+.p56{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p57{text-align: left;margin-top: 15px;margin-bottom: 0px;}
+.p58{text-align: left;margin-top: 7px;margin-bottom: 0px;}
+.p59{text-align: left;margin-top: 6px;margin-bottom: 0px;}
+.p60{text-align: left;margin-top: 0px;margin-bottom: 0px;}
 .p61{text-align: left;margin-top: 30px;margin-bottom: 0px;}
-.p62{text-align: left;padding-right: 14px;margin-top: 10px;margin-bottom: 0px;}
-.p63{text-align: left;padding-left: 68px;padding-right: 10px;margin-top: 28px;margin-bottom: 0px;text-indent: -24px;}
-.p64{text-align: left;padding-left: 68px;padding-right: 3px;margin-top: 8px;margin-bottom: 0px;text-indent: -24px;}
-.p65{text-align: left;padding-left: 68px;padding-right: 49px;margin-top: 0px;margin-bottom: 0px;}
-.p66{text-align: left;padding-left: 68px;padding-right: 8px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p62{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p63{text-align: left;padding-left: 68px;margin-top: 28px;margin-bottom: 0px;text-indent: -24px;}
+.p64{text-align: left;padding-left: 68px;margin-top: 8px;margin-bottom: 0px;text-indent: -24px;}
+.p65{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;}
+.p66{text-align: left;padding-left: 68px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
 .p67{text-align: left;margin-top: 32px;margin-bottom: 0px;}
-.p68{text-align: left;padding-right: 8px;margin-top: 22px;margin-bottom: 0px;}
+.p68{text-align: left;margin-top: 22px;margin-bottom: 0px;}
 </STYLE>
 
 <DIV id="page_1">
@@ -130,9 +121,6 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p5 ft1">Compra e Venda</P>
 <P class="p6 ft8">Você pode selecionar um ou mais produtos ("​<SPAN class="ft6">Produtos</SPAN><SPAN class="ft7">​</SPAN>") para compra através dos Serviços. Todos os acordos para comprar uma quantidade específica de produtos serão documentados em um pedido aceito e confirmado por você (um "​<SPAN class="ft6">Pedido de Compra</SPAN><SPAN class="ft7">​</SPAN>"). Você pode criar e confirmar um Pedido de Compra através do nosso site ou aplicativo ou <NOBR>enviando-nos</NOBR> um <NOBR>e-mail.</NOBR> Ao aceitar estes Termos, você concorda em cumprir todas as políticas e requisitos razoáveis ​​da Gonddo, incluindo políticas relacionadas a Pedidos de Compra, entregas, condições de pagamento e faturas, desde que o notifiquemos por escrito sobre esses requisitos antes de confirmar o Pedido de Compra.</P>
 <P class="p7 ft9">Você concorda em pagar de acordo com os termos estabelecidos em um Pedido de Compra aplicável. Depois de criar e confirmar um Pedido de Compra, apenas os</P>
-</DIV>
-
-<DIV id="page_2">
 <P class="p8 ft9">vendedores podem cancelar as transações. Você pode solicitar que um vendedor cancele o pedido através do site ou aplicativo ou <NOBR>enviando-nos</NOBR> um email.</P>
 <P class="p9 ft1">Envio</P>
 <P class="p10 ft5">A menos que especificado de outra forma em um Pedido de Compra aplicável, os termos de envio serão o Ponto de Remessa FOB. Assim que qualquer produto sair do armazém do vendedor, você será o proprietário do produto e deverá pagar as despesas de entrega. Diferentes arranjos de envio podem estar disponíveis</P>
@@ -144,10 +132,6 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p15 ft11">A Gonddo leva a privacidade de seus usuários muito a sério. Para a atual Política de Privacidade da Gonddo, clique aqui <A href="https://gonddo.com/privacidade">​</A><A href="https://gonddo.com/privacidade"><SPAN class="ft10">https://gonddo.com/privacidade</SPAN></A></P>
 <P class="p16 ft8">A Gonddo possui uma política expressa sobre privacidade. As informações de registro e outras informações sobre o usuário estão sujeitas ao tratamento referido em tal política de privacidade. O usuário entende e concorda que o seu uso e a prestação do serviço envolvem a coleta e utilização de informações e dados sobre o usuário (conforme definido na política de privacidade aplicável), incluindo a transferência destas informações e dados para outros territórios, para fins de armazenamento, processamento e utilização pela Gonddo, sua controladora e demais empresas do mesmo grupo econômico, para as finalidades da prestação do serviço e demais previstas na política de privacidade. Favor consultar a política de privacidade da Gonddo no seguinte link: https://gonddo.com.br/privacidade. A política de privacidade da Gonddo constitui parte integrante dos termos.</P>
 <P class="p17 ft9">Ao nos fornecer seu número de celular, você confirma que deseja que o Gonddo lhe envie informações que pensamos ser do seu interesse, que podem incluir o Gonddo</P>
-</DIV>
-<DIV id="page_3">
-
-
 <P class="p18 ft9">usando a tecnologia de discagem automática para enviar uma mensagem de texto para o número sem fio fornecido.</P>
 <P class="p9 ft1">Quais são os princípios básicos do uso do Gonddo.com.br?</P>
 <P class="p19 ft5">Pode ser necessário que você se inscreva em uma conta e selecione uma senha e nome de usuário ("​<SPAN class="ft2">ID do usuário do Gonddo</SPAN><SPAN class="ft3">​</SPAN>"). Você promete nos fornecer informações de registro precisas, completas e atualizadas sobre você. Você não pode selecionar como seu ID de usuário do Gonddo um nome que você não tem o direito de usar ou o nome de outra pessoa com a intenção de se passar por essa pessoa. Você não pode transferir sua conta para mais ninguém sem nossa permissão prévia por escrito.</P>
@@ -157,10 +141,6 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p21 ft13">Seu uso dos Serviços está sujeito às seguintes restrições adicionais:</P>
 <P class="p22 ft9">Você declara, garante e concorda que não contribuirá com nenhum Conteúdo ou Envios de Usuário (cada um desses termos é definido abaixo) ou de outra forma usará os Serviços ou interagirá com os Serviços de uma maneira que:</P>
 <P class="p23 ft9"><SPAN class="ft14">1.</SPAN><SPAN class="ft15">Infrinja ou viole os direitos de propriedade intelectual ou quaisquer outros direitos de qualquer outra pessoa (incluindo a Gonddo);</SPAN></P>
-</DIV>
-<DIV id="page_4">
-
-
 <P class="p24 ft5"><SPAN class="ft14">2.</SPAN><SPAN class="ft16">Viole qualquer lei ou regulamento, incluindo, sem limitação, qualquer lei de controle de exportação aplicável;</SPAN></P>
 <P class="p25 ft8"><SPAN class="ft14">3.</SPAN><SPAN class="ft17">Seja prejudicial, fraudulento, enganoso, ameaçador, assediador, difamatório, obsceno ou censurável;</SPAN></P>
 <P class="p26 ft8"><SPAN class="ft14">4.</SPAN><SPAN class="ft17">Ponha em risco a segurança da sua conta Gonddo ou de qualquer outra pessoa (como permitir que outra pessoa faça login nos Serviços enquanto você);</SPAN></P>
@@ -174,10 +154,6 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p33 ft1">Quais são meus direitos nos Serviços?</P>
 <P class="p10 ft9">Os materiais exibidos ou executados ou disponíveis nos ou através dos Serviços, incluindo, entre outros, textos, gráficos, dados, artigos, fotos, imagens, ilustrações, Envios do Usuário etc. (todos os itens acima, o "Conteúdo" ) são protegidos por direitos autorais e / ou outras leis de propriedade intelectual. Você promete cumprir todos os avisos de direitos autorais, regras de marca registrada, informações e restrições contidas em qualquer Conteúdo acessado por meio dos Serviços e não usará, copiará, reproduzirá, modificará, traduzirá, publicará, transmitirá, distribuirá, executará , fará upload, exibirá, licenciará, venda, comercialize ou explore, para qualquer finalidade, qualquer Conteúdo que não seja de sua propriedade, (i) sem o consentimento prévio do proprietário desse Conteúdo ou (ii) de maneira a violar o conteúdo de outra pessoa (incluindo o Gonddo ) direitos.</P>
 <P class="p34 ft9">Você entende que a Gonddo possui os Serviços. Você não modifica, publica, transmite, participa da transferência ou venda de, reproduz (exceto conforme expressamente</P>
-</DIV>
-<DIV id="page_5">
-
-
 <DIV id="id5_1">
 <P class="p35 ft9">previsto nesta Seção), cria trabalhos derivados com base em, ou de outra forma, explora qualquer um dos Serviços.</P>
 <P class="p36 ft5">Os Serviços podem permitir que você copie ou faça o download de determinado Conteúdo; <NOBR>lembre-se</NOBR> de que apenas porque essa funcionalidade existe, não significa que todas as restrições acima não se aplicam - elas se aplicam!</P>
@@ -191,29 +167,17 @@ body {margin-top: 0px;margin-left: 0px;}
 <DIV id="id5_2">
 <P class="p41 ft1">Quem é responsável pelo que vejo e faço nos Serviços?</P>
 </DIV>
-</DIV>
-<DIV id="page_6">
-
-
 <P class="p41 ft9">Qualquer informação ou conteúdo publicado publicamente ou transmitido em particular através dos Serviços é de responsabilidade exclusiva da pessoa de quem esse conteúdo se originou, e você acessa todas essas informações e conteúdos por seu próprio risco, e não somos responsáveis ​​por quaisquer erros ou omissões nos essas informações ou conteúdos ou por quaisquer danos ou perdas que você possa sofrer em conexão com eles. Não podemos controlar e não temos o dever de tomar qualquer ação sobre como você pode interpretar e usar o Conteúdo ou quais ações você pode tomar como resultado de ter sido exposto ao Conteúdo e, por meio deste, nos isenta de toda responsabilidade por você ter adquirido ou Conteúdo não adquirido através dos Serviços. Não podemos garantir a identidade de nenhum usuário com quem você interaja usando os Serviços e não somos responsáveis ​​por quais usuários obtêm acesso aos Serviços.</P>
 <P class="p42 ft5">Você é responsável por todo o Conteúdo com o qual contribui, de qualquer maneira, para os Serviços, e representa e garante que tem todos os direitos necessários para <NOBR>fazê-lo,</NOBR> da maneira em que contribui. Você manterá todas as suas informações de registro precisas e atualizadas. Você é responsável por todas as suas atividades relacionadas aos Serviços.</P>
 <P class="p14 ft8">Os Serviços podem conter links ou conexões com sites ou serviços de terceiros que não pertencem ou são controlados pela Gonddo. Ao acessar sites de terceiros ou usar serviços de terceiros, você aceita que há riscos ao <NOBR>fazê-lo</NOBR> e que a Gonddo não é responsável por tais riscos. Recomendamos que você esteja ciente quando sair dos Serviços e leia os termos e condições e a política de privacidade de cada site ou serviço de terceiros que você visita ou utiliza.</P>
 <P class="p43 ft9">A Gonddo não tem controle e não assume nenhuma responsabilidade pelo conteúdo, precisão, políticas de privacidade ou práticas ou opiniões expressas em sites de terceiros ou por terceiros com os quais você interage através dos Serviços. Além disso, o Gonddo não monitora, não pode monitorar, verificar, censurar ou editar o conteúdo de qualquer site ou serviço de terceiros. Ao usar os Serviços, você nos isenta e nos isenta de toda e qualquer responsabilidade decorrente do uso de qualquer site ou serviço de terceiros.</P>
 <P class="p44 ft8">Suas interações com organizações e / ou indivíduos encontrados nos ou através dos Serviços, incluindo pagamento e entrega de bens ou serviços, e quaisquer outros termos, condições, garantias ou representações associadas a essas transações, são exclusivamente entre você e essas organizações e / ou indivíduos . Você deve fazer qualquer investigação que achar necessária ou apropriada antes de prosseguir com qualquer transação online ou offline com qualquer um desses terceiros. Você concorda que a Gonddo não será responsável por nenhuma perda ou dano de qualquer espécie incorrido como resultado de tais negociações.</P>
-</DIV>
-<DIV id="page_7">
-
-
 <P class="p16 ft8">Se houver uma disputa entre participantes deste site ou entre usuários e terceiros, você concorda que o Gonddo não tem nenhuma obrigação de se envolver. No caso de uma disputa com um ou mais usuários, você libera a Gonddo, seus diretores, executivos, funcionários, agentes e sucessores de reivindicações, demandas e danos de qualquer tipo ou natureza, conhecidos ou desconhecidos, suspeitos ou insuspeitos , divulgados ou não divulgados, decorrentes de ou de alguma forma relacionados a tais disputas e / ou nossos Serviços. Se você é um residente da Califórnia, deve renunciar à Seção 1542 do Código Civil da Califórnia, que diz: "Uma liberação geral não se estende a reivindicações que o credor não conhece ou suspeita que exista a seu favor no momento da execução do contrato. liberação, que, se conhecido por ele, deve ter afetado materialmente sua liquidação com o devedor ".</P>
 <P class="p45 ft1">A Gonddo mudará os Serviços algum dia?</P>
 <P class="p46 ft8">Estamos sempre tentando melhorar os serviços, para que eles possam mudar com o tempo. Podemos suspender ou descontinuar qualquer parte dos Serviços ou introduzir novos recursos ou impor limites a certos recursos ou restringir o acesso a partes ou a todos os Serviços. <NOBR>Reservamo-nos</NOBR> o direito de remover qualquer Conteúdo dos Serviços a qualquer momento, por qualquer motivo (incluindo, entre outros, se alguém alega que você contribuiu com esse Conteúdo em violação a estes Termos), a nosso critério e sem aviso prévio.</P>
 <P class="p47 ft1">Termos de Pagamento</P>
 <P class="p48 ft5"><SPAN class="ft14">1.</SPAN><SPAN class="ft22">Faturamento</SPAN><SPAN class="ft3">​</SPAN>. Utilizamos um processador de pagamento de terceiros (o “​<SPAN class="ft2">Processador de Pagamento</SPAN><SPAN class="ft3">​</SPAN>”) para cobrar uma conta de pagamento vinculada à sua conta nos Serviços (sua “​<SPAN class="ft2">Conta de Cobrança</SPAN><SPAN class="ft3">​</SPAN>”) para qualquer Pedido de Compra. O processamento dos pagamentos estará sujeito aos termos, condições e políticas de privacidade do Processador de pagamentos, além destes Termos. Não nos responsabilizamos por erros do Processador de Pagamentos. Ao optar por usar os Serviços Pagos, você concorda em nos pagar, através do Processador de Pagamento, todas as cobranças detalhadas no Pedido de Compra aplicável de acordo com os termos de pagamento aplicáveis ​​e nos autoriza, através do Processador de Pagamento, a cobrar do provedor de pagamento escolhido ( seu "Método de pagamento"). Você concorda em efetuar o pagamento usando o método de pagamento selecionado. <NOBR>Reservamo-nos</NOBR> o direito de corrigir quaisquer erros que o Processador de pagamentos cometa, mesmo que já tenha solicitado ou recebido o pagamento.</P>
 <P class="p49 ft5"><SPAN class="ft14">2.</SPAN><SPAN class="ft22">Forma de pagamento</SPAN><SPAN class="ft3">​</SPAN>. Os termos do seu pagamento serão baseados no seu método de pagamento e podem ser determinados por acordos entre você e a instituição financeira, o emissor do cartão de crédito ou outro fornecedor do método de pagamento escolhido. Se nós, por meio do Processador de</P>
-</DIV>
-<DIV id="page_8">
-
-
 <DIV id="id8_1">
 <P class="p50 ft5">pagamentos, não recebermos seu pagamento, você concorda em pagar todos os valores devidos na sua conta de cobrança, mediante solicitação.</P>
 <P class="p51 ft5"><SPAN class="ft14">3.</SPAN><SPAN class="ft22">Informações atuais necessárias</SPAN><SPAN class="ft3">​</SPAN>. VOCÊ DEVE FORNECER INFORMAÇÕES ATUAIS, COMPLETAS E PRECISAS PARA SUA CONTA DE FATURAMENTO. VOCÊ DEVE ATUALIZAR TODAS AS INFORMAÇÕES PARA MANTER A SUA CONTA DE FATURAMENTO ATUAL, COMPLETA E PRECISA (TAL COMO ALTERAÇÃO DE ENDEREÇO ​​DE FATURAMENTO, NÚMERO DE CARTÃO DE CRÉDITO OU DATA DE VALIDADE DE CARTÃO DE CRÉDITO), E VOCÊ DEVE <NOBR>notificar-nos</NOBR> imediatamente ou nosso processador de pagamento É CANCELADO (POR POR PERDAS OU ROUBO) OU SE VOCÊ TIVER CONHECIMENTO DE UMA QUEBRA POTENCIAL DE SEGURANÇA, COMO A DIVULGAÇÃO OU USO NÃO AUTORIZADO DE SEU NOME OU SENHA DE USUÁRIO. ALTERAÇÕES EM TAIS INFORMAÇÕES PODEM SER REALIZADAS EM CONFIGURAÇÕES DE CONTA GONDDO SE VOCÊ NÃO FORNECER QUALQUER INFORMAÇÃO ANTERIOR, CONCORDA QUE PODEMOS CONTINUAR <NOBR>COBRANDO-O</NOBR> POR QUALQUER USO DE SERVIÇOS PAGOS SOB SUA CONTA DE FATURAMENTO, A menos que você tenha terminado seus serviços pagos conforme estabelecido acima.</P>
@@ -226,28 +190,16 @@ body {margin-top: 0px;margin-left: 0px;}
 <DIV id="id8_2">
 <P class="p41 ft1">O que mais preciso saber?</P>
 </DIV>
-</DIV>
-<DIV id="page_9">
-
-
 <P class="p41 ft8"><SPAN class="ft6">Isenção de garantia. </SPAN><SPAN class="ft7">​</SPAN>Nem a Gonddo, nem seus licenciadores ou fornecedores fazem representações ou garantias sobre quaisquer Produtos ou qualquer conteúdo contido ou acessado através dos Serviços, e não seremos responsáveis ​​pela precisão, conformidade de direitos autorais, legalidade ou decência de material contido ou acessado através dos Serviços. Não fazemos representações ou garantias em relação a sugestões ou recomendações de serviços ou produtos oferecidos ou adquiridos através dos Serviços. Os produtos e serviços adquiridos ou oferecidos (seguindo ou não essas recomendações e recomendações) por meio dos Serviços são fornecidos "NO ESTADO EM QUE SE ENCONTRAM" e sem qualquer garantia da Gonddo ou de terceiros (a menos que, somente em relação a outros, sejam fornecidos de forma expressa e inequívoca) por escrito por um terceiro designado para um produto específico). A menos que seja acordado de forma separada por FORNECEDORES, OS PRODUTOS, SERVIÇOS E CONTEÚDO SÃO FORNECIDOS PELA GONDDO "COMO ESTÃO", SEM GARANTIAS OU QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, SEM LIMITAÇÃO, GARANTIAS IMPLÍCITAS DE MERCADORIAS, UMA FINALIDADE ESPECÍFICA, NÃO INFRACÇÃO OU QUE O USO DOS SERVIÇOS SERÁ ININTERRUPTO OU SEM ERROS. ALGUNS ESTADOS NÃO PERMITEM LIMITAÇÕES POR QUANTO TEMPO UMA GARANTIA IMPLÍCITA DURANTE, POR ISSO AS LIMITAÇÕES ACIMA PODEM NÃO SE APLICAR A VOCÊ.</P>
 <P class="p57 ft8"><SPAN class="ft6">Limitação de responsabilidade. </SPAN><SPAN class="ft7">​</SPAN>ATÉ O MÁXIMO PERMITIDO PELA LEI APLICÁVEL, SOB NENHUMA CIRCUNSTÂNCIA E SOB NENHUMA TEORIA JURÍDICA (INCLUINDO, SEM LIMITAÇÃO, PREJUÍZO, CONTRATO, RESPONSABILIDADE estrita ou de outra forma) DEVERÁ SER RESPONSÁVEL POR VOCÊ OU QUALQUER OUTRA PESSOA PARA (A) , DANOS ESPECIAIS, INCIDENTAIS OU CONSEQÜENCIAIS DE QUALQUER TIPO, INCLUINDO DANOS POR LUCROS PERDIDOS, PERDA DE BOA VONTADE, PARADA DE TRABALHO, PRECISÃO DE RESULTADOS OU FALHA NO COMPUTADOR OU MAU FUNCIONAMENTO, OU (B) QUALQUER VALOR, NA AGREGAÇÃO MAIOR DE (I) R$ 500 OU (II) OS MONTANTES PAGOS POR VOCÊ PARA CONECTAR COM OS SERVIÇOS NO DOZE</P>
 <P class="p58 ft5"><SPAN class="ft14">(12)</SPAN><SPAN class="ft23">MÊS (ANOS) ANTES DE ESTA RECLAMAÇÃO APLICÁVEL, OU (C) QUALQUER QUESTÃO ALÉM DO NOSSO CONTROLE RAZOÁVEL. ALGUNS ESTADOS NÃO PERMITEM A EXCLUSÃO OU LIMITAÇÃO DE CERTOS DANOS, POR ISSO A LIMITAÇÃO E EXCLUSÕES ACIMA PODEM NÃO SE APLICAR A VOCÊ.</SPAN></P>
 <P class="p59 ft8"><SPAN class="ft6">Indenização. </SPAN><SPAN class="ft7">​</SPAN>Na extensão máxima permitida pela lei aplicável, você concorda em indenizar e isentar a Gonddo, suas afiliadas, executivos, agentes, funcionários e parceiros de todas e quaisquer reivindicações, responsabilidades, danos (reais e consequenciais), perdas e despesas (e reais) incluindo honorários advocatícios) decorrentes de ou de alguma forma relacionados a reivindicações de terceiros relacionadas a (a) seu uso dos Serviços (incluindo quaisquer ações tomadas por terceiros usando sua conta), (b) sua violação destes Termos, e (c) seu uso de qualquer Produto. No caso de uma reclamação, ação ou ação ("Reivindicação"), tentaremos fornecer um aviso da Reivindicação às informações de contato que temos para sua</P>
-</DIV>
-<DIV id="page_10">
-
-
 <P class="p60 ft9">conta (desde que a falha no fornecimento de tal notificação não elimine ou reduza sua obrigações de indenização).</P>
 <P class="p11 ft5"><SPAN class="ft2">Atribuições. </SPAN><SPAN class="ft3">​</SPAN>Você não pode atribuir, delegar ou transferir estes Termos ou seus direitos ou obrigações neste documento, ou sua conta de Serviços, de qualquer forma (por força de lei ou de outra forma) sem o consentimento prévio por escrito da Gonddo. Podemos transferir, atribuir ou delegar estes Termos e nossos direitos e obrigações sem consentimento.</P>
 <P class="p61 ft5"><SPAN class="ft24">Escolha de Leis.</SPAN><SPAN class="ft3">​</SPAN>Estes Termos e o relacionamento entre a Marca e a Gonddo serão regidos pelas leis da República Federativa do Brasil. Fica eleito o foro da Comarca da Capital do Estado de São Paulo como sendo o único competente para dirimir quaisquer litígios e/ou demandas que venham a envolver as partes em relação ao uso e acesso de seu Website e Aplicativo. A Marca e a Gonddo concordam em <NOBR>submeter-se</NOBR> à competência única e exclusiva dos tribunais localizados no Brasil</P>
 <P class="p62 ft8"><SPAN class="ft24">Acordo de Arbitragem. </SPAN><SPAN class="ft7">​</SPAN>LEIA ATENTAMENTE O SEGUINTE ACORDO DE ARBITRAGEM, PORQUE É NECESSÁRIO ARBITRAR CERTAS DIVULGAÇÕES E RECLAMAÇÕES COM MABLE E LIMITE A MANEIRA EM QUE PODE PROCURAR ISENÇÃO DE NÓS. Você e a Gonddo reconhecem e concordam que, para os fins de qualquer disputa decorrente ou relacionada ao assunto destes Termos, os executivos, diretores, funcionários e contratados independentes da Gonddo ("​<SPAN class="ft24">Pessoal</SPAN><SPAN class="ft7">​</SPAN>") são terceiros beneficiários desses Termos, e que após a aceitação destes Termos, o Pessoal terá o direito (e será considerado que aceitou o direito) de fazer cumprir estes Termos contra você, como terceiro beneficiário deste instrumento.</P>
 <P class="p63 ft8"><SPAN class="ft14">1.</SPAN><SPAN class="ft25">Regras de Arbitragem; </SPAN><SPAN class="ft7">​</SPAN>Aplicabilidade do Acordo de Arbitragem. Qualquer disputa decorrente ou relacionada ao objeto destes Termos será finalmente resolvida por arbitragem vinculativa em São Paulo, Brasil. A arbitragem ocorrerá no idioma português, então em vigor por um árbitro comercial com experiência substancial na resolução de propriedade intelectual e disputa de contrato comercia. O julgamento da sentença proferida por esse árbitro pode ser proferido em qualquer tribunal de jurisdição competente. Não obstante a obrigação precedente de arbitrar disputas, cada parte terá o direito de obter uma medida cautelar ou outra eqüitativa a qualquer momento, de qualquer tribunal de jurisdição competente​<SPAN class="ft6">.</SPAN></P>
 <P class="p64 ft8"><SPAN class="ft14">2.</SPAN><SPAN class="ft25">Renúncia ao Júri. </SPAN><SPAN class="ft7">​</SPAN>Você e Gonddo podem renunciar a quaisquer direitos constitucionais e estatutários para ir ao tribunal e ter um julgamento em frente a um juiz ou júri. Você e Gonddo estão optando por resolver reivindicações e disputas por arbitragem. Os procedimentos de arbitragem são geralmente mais limitados, mais eficientes e menos dispendiosos do que as regras aplicáveis ​​em um tribunal e estão sujeitos a uma revisão muito limitada por um tribunal. Em qualquer litígio entre você e Gonddo sobre a desocupação ou execução de uma sentença arbitral, VOCÊ E GONDDO podem renunciar a</P>
-</DIV>
-<DIV id="page_11">
-
-
 <P class="p65 ft5">todos os direitos a um julgamento de júri e optar por que a disputa seja resolvida por um juiz.</P>
 <P class="p66 ft6"><SPAN class="ft14">3.</SPAN><SPAN class="ft25">Renúncia de classe ou ações consolidadas. </SPAN><SPAN class="ft7">​</SPAN><SPAN class="ft8">TODAS AS RECLAMAÇÕES E LITÍGIOS DENTRO DO ÂMBITO DESTE CONTRATO DE ARBITRAGEM DEVEM SER ARBITRADAS OU CONTENCIOSAS EM UMA BASE INDIVIDUAL E NÃO EM UMA CLASSE. RECLAMAÇÕES DE MAIS DE UM CLIENTE OU USUÁRIO NÃO PODEM SER ARBITRADAS OU CONTÍNUAS CONJUNTAMENTE OU CONSOLIDADAS COM QUALQUER OUTRO CLIENTE OU USUÁRIO. Se, no entanto, essa renúncia a ações coletivas ou consolidadas for considerada inválida ou inexequível, nem você nem nós temos direito a arbitragem; em vez disso, todas as reclamações e disputas serão resolvidas em um tribunal, conforme estabelecido em (g) abaixo.</SPAN></P>
 <P class="p67 ft8"><SPAN class="ft6">Diversos. </SPAN><SPAN class="ft7">​</SPAN>Você será responsável por pagar, reter, arquivar e relatar todos os impostos, taxas e outras avaliações governamentais associadas à sua atividade em conexão com os Serviços, desde que o Gonddo possa, a seu exclusivo critério, fazer qualquer uma das ações acima mencionadas. em nome ou para si próprio como entender. A falha de você ou nós de exercer, de qualquer forma, qualquer direito aqui contido não será considerada uma renúncia a quaisquer outros direitos aqui previstos. Se qualquer disposição destes Termos for considerada inexequível ou inválida, essa disposição será limitada ou eliminada, na extensão mínima necessária, para que, de outra forma, esses Termos permaneçam em pleno vigor, efeito e força executória. Você e a Gonddo concordam que estes Termos são a declaração completa e exclusiva do entendimento mútuo entre você e a Gonddo, e que esses Termos substituem e cancelam todos os acordos escritos e orais anteriores, comunicações e outros entendimentos relacionados ao objeto destes Termos. Você reconhece e concorda que não é um funcionário, agente, parceiro ou empreendimento conjunto da Gonddo e não possui nenhuma autoridade de qualquer tipo para vincular a Gonddo em qualquer aspecto.</P>
