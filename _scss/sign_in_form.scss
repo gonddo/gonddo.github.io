@@ -1,5 +1,20 @@
 @import 'default_styles';
 
+.gnd-terms-of-use {
+  display: flex;
+  justify-content: flex-start;
+  font-family: $gonddo-sans-serif;
+  margin: 0.5rem 0;
+
+  label {
+    font-family: $gonddo-sans-serif;
+  }
+
+  a {
+    font-family: $gonddo-sans-serif;
+  }
+}
+
 .gnd-sign-in-form-container {
   display: flex;
   justify-content: center;
