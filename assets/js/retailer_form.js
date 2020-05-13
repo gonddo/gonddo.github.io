@@ -3,6 +3,8 @@ ShowRelatedFields = function(){
 
   function toggleFields(selectedItem) {
     var currentStoreType = storeType[selectedItem.selectedIndex];
+    var customerProfile = document.getElementById('retailer_option');
+    currentStoreType == "reseller" ? customerProfile.value = "reseller" : customerProfile.value = "retailer";
 
     switch (currentStoreType) {
       case "physical_store":
