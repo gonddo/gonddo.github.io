@@ -18,6 +18,5 @@ sass:
 google_analytics: "UA-147383514-2"
 
 # FormSpree
-sign_in_url: http://staging.gonddo.com.br/public/request_invite
-# sign_in_url: http://localhost:3000/public/request_invite
+sign_in_url: https://app.gonddo.com.br/public/request_invite
 formspree_contact_url: https://formspree.io/bruno.passos@gonddo.com.br
