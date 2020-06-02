@@ -64,7 +64,7 @@
   }
 
   documentReady(() => {
-    debugger;
+    document.getElementById('seller-invitation-token').value = localStorage.getItem('supplier-invitation-token');
   });
 
 </script>
