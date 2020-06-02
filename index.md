@@ -124,19 +124,4 @@ layout: home
     videoContainer.scrollIntoView({ behavior: 'smooth', block: 'center'});
     document.getElementById("gnd-retailer-video").src += "&autoplay=1"
   }
-
-  function documentReady(fn) {
-    document.addEventListener("DOMContentLoaded", fn);
-    if (document.readyState === "interactive" || document.readyState === "complete" ) {
-      fn();
-    }
-  }
-
-  documentReady(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const invitationToken = urlParams.get('invitation-token');
-    if (invitationToken != null) {
-      localStorage.setItem('supplier-invitation-token', invitationToken)
-    }
-  });
 </script>
