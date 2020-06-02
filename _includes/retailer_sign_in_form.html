@@ -54,3 +54,17 @@
 
   <input class="gnd-retailer-sign-in-submit-btn" type="submit" value="Cadastrar">
 </form>
+
+<script>
+  function documentReady(fn) {
+    document.addEventListener("DOMContentLoaded", fn);
+    if (document.readyState === "interactive" || document.readyState === "complete" ) {
+      fn();
+    }
+  }
+
+  documentReady(() => {
+    debugger;
+  });
+
+</script>
