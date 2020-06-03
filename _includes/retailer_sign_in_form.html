@@ -1,6 +1,7 @@
 <form id="gnd-retailer-form" class="gnd-retailer-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
   <h1>Cadastre-se de graça</h1>
   <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
+  <input type="hidden" id="invitation-id" name="invitation_id" value="">
   <input class="gnd-retailer-sign-in-field"
     id="customer-name" type="text" name="name"
     placeholder="Seu nome" required
@@ -53,3 +54,22 @@
 
   <input class="gnd-retailer-sign-in-submit-btn" type="submit" value="Cadastrar">
 </form>
+
+<script type="text/javascript">
+  function documentReady(fn) {
+    document.addEventListener("DOMContentLoaded", fn);
+    if (document.readyState === "interactive" || document.readyState === "complete" ) {
+      fn();
+    }
+  }
+
+  documentReady(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const invitationId = urlParams.get('invitation_id');
+    if (invitationId) {
+      localStorage.setItem('invitation-id', invitationId)
+    }
+    document.getElementById('invitation-id').value = localStorage.getItem('invitation-id');
+  });
+
+</script>
