@@ -64,11 +64,6 @@
   }
 
   documentReady(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const invitationId = urlParams.get('invitation_id');
-    if (invitationId) {
-      localStorage.setItem('invitation-id', invitationId)
-    }
     document.getElementById('invitation-id').value = localStorage.getItem('invitation-id');
   });
 
