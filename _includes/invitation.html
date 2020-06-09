@@ -1,0 +1,7 @@
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const invitationId = urlParams.get('invitation_id');
+  if (invitationId) {
+    localStorage.setItem('invitation-id', invitationId)
+  }
+</script>
