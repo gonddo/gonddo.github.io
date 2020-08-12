@@ -1,3 +1,34 @@
+FormSubmit = function() {
+  function submitForm() {
+    var form = document.getElementById('gnd-retailer-form');
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return
+    }
+
+    var formData = new FormData(form)
+    const url = "http://localhost:3000/public/request_invite";
+    form.submit()
+
+    $.ajax({
+      url: url,
+      type: "POST",
+      crossDomain: false,
+      headers: { 'Access-Control-Allow-Origin': url },
+      data: formData,
+      processData: false
+    }).done(function(msg) {
+      console.log(msg)
+    }).fail(function(error) {
+      $("#gnd-retailer-form-registered-user").addClass("gnd-already-registered-error")
+    });
+  }
+
+  return {
+    submitForm: submitForm
+  }
+}();
+
 ShowRelatedFields = function(){
   const storeType = [null, "physical_store", "online_store", "physical_and_online", "reseller"];
 
