@@ -1,5 +1,5 @@
 <form id="gnd-retailer-form" class="gnd-retailer-form" accept-charset="UTF-8" method="POST" action={{ site.sign_in_url }}>
-  <div id="gnd-retailer-form-registered-user" class="gnd-form-registered-user">Usuário já cadastrado</div>
+  <span id="gnd-form-error-msg"></span>
   <h1>Cadastre-se de graça</h1>
   <input type="hidden" id="retailer_option" name="profile" value="retailer" required>
   <input type="hidden" id="invitation-id" name="invitation_id" value="">
@@ -46,14 +46,14 @@
   <div class="gnd-terms-of-use">
     <input
       type="checkbox"
-      name="terms-of-use"
+      name="terms_of_use"
       oninvalid="this.setCustomValidity('Por favor leia os termos de uso')"
       oninput="this.setCustomValidity('')"
       required>
-    <label for="terms-of-use">Eu li e concordo com os <a href="/termos-de-servico-varejista">termos de uso para varejistas</a></label>
+    <label for="terms_of_use">Eu li e concordo com os <a href="/termos-de-servico-varejista">termos de uso para varejistas</a></label>
   </div>
 
-  <input class="gnd-retailer-sign-in-submit-btn" type="button" value="Cadastrar" onclick="FormSubmit.submitForm()">
+  <input class="gnd-retailer-sign-in-submit-btn" type="button" value="Cadastrar" onclick="FormSubmit.submitForm('retailer')">
 </form>
 
 <script type="text/javascript">

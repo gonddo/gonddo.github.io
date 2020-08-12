@@ -127,12 +127,11 @@
   display: none;
 }
 
-.gnd-form-registered-user {
-  display: none;
-
-  &.gnd-already-registered-error {
-    display: block;
-    color: red;
-  }
+#gnd-form-error-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding-bottom: 1rem;
 }
 
