@@ -6,14 +6,13 @@ FormSubmit = function(profile) {
       form.reportValidity();
       return
     };
-
     var formData = new FormData(form);
-    var dataObjects = Object.fromEntries(formData);
+    var dataObject = Object.fromEntries(formData);
 
     $.ajax({
       type: "POST",
       url: form.action,
-      data: dataObjects,
+      data: dataObject,
       success: (response) => {
         window.location.href = response.success.url;
       },
