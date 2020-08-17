@@ -1,4 +1,5 @@
 <form id="gnd-supplier-form" class="gnd-supplier-form" accept-charset="UTF-8" action={{ site.sign_in_url }} method="POST">
+  <span id="gnd-form-error-msg"></span>
   <h1>Cadastre-se de graça</h1>
   <input type="hidden" id="supplier_option" name="profile" value="supplier" required>
   <input class="gnd-supplier-sign-in-field"
@@ -69,5 +70,5 @@
   </div>
 
 
-  <input class="gnd-supplier-sign-in-submit-btn" type="submit" value="Cadastrar">
+  <input class="gnd-supplier-sign-in-submit-btn" type="button" value="Cadastrar" onclick="FormSubmit.submitForm('supplier')">
 </form>
