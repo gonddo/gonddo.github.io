@@ -6,7 +6,7 @@
 Cards:
 - [Card Trello #1](https://trello.com/c/tlGmv6FE/260-dados-de-integra%C3%A7%C3%A3o)
 
-# DOR
+# DoR
 [] Testes unitários
 [] Tasks finalizadas
 [] Artefato revisado e aprovado
